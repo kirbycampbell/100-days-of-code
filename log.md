@@ -1,30 +1,9 @@
 # 100 Days Of Code - Log
 
-### Day 0: February 30, 2016 (Example 1)
-##### (delete me or comment me out)
+### Day 0: March 14, 2019
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+**Today's Progress**: Added Social Box and CSS to BlogCreator(Medium Knockoff). Created Twitter account for coding only and began my posting-spree! Also added automatic loading to the Blog Creator page, so that previous work is auto-reloaded when returning to page.
 
-**Thoughts:** I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+**Thoughts:** Used some fontawesome icons and placed them on the left side of the page permanently, much like medium.com. Changed the Desktop View of my blog list to a 2-column view while adjusting spacing. Ran into a little trouble playing with the grid rows/columns - it interacted with my footer in odd ways that took some experimentation to figure out. Couldn't get the fontawesome icons any bigger, I believe that's part of the limitation of fontawesome "free" icons though. Great first day!
 
-**Link to work:** [Calculator App](http://www.example.com)
-
-### Day 0: February 30, 2016 (Example 2)
-##### (delete me or comment me out)
-
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
-
-**Thoughts**: I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
-
-**Link(s) to work**: [Calculator App](http://www.example.com)
-
-
-### Day 1: June 27, Monday
-
-**Today's Progress**: I've gone through many exercises on FreeCodeCamp.
-
-**Thoughts** I've recently started coding, and it's a great feeling when I finally solve an algorithm challenge after a lot of attempts and hours spent.
-
-**Link(s) to work**
-1. [Find the Longest Word in a String](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string)
-2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence)
+**Link to work1:** [Blog-Site](https://github.com/kirbycampbell/blog-site)
