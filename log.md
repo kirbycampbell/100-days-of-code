@@ -18,3 +18,11 @@ Also began work on a simple timer - to serve as a reminder for javascript Date f
 **Thoughts:** Got stuck working on the Auth - as my BlogCreator has only certain pages requiring login, and Firestore was a bit complicated in that realm. So to accomplish something on Day 1 - I built the beginnings of a simple Timer app that I will soon build out as a nicely styled Meditation Timer. As of now it's crude, but it's doing things!
 
 **Link to work2:** [Blog-Site](https://github.com/kirbycampbell/blog-site)(https://github.com/kirbycampbell/simple-reminder)
+
+### Day 2 : March 16, 2019
+
+**Today's Progress**: Made minor stylizing progress with Meditation counter app -
+
+**Thoughts:** time was crunched due to massive 10k+ power outage in portland... 12 hours without power on day 3 of 100 days of code - will do 5x the work tomorrow to make up for the city's disaster.
+
+**Link to work2:** [Blog-Site](https://github.com/kirbycampbell/blog-site)(https://github.com/kirbycampbell/simple-reminder)
