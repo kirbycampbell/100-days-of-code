@@ -1,5 +1,7 @@
 # 100 Days Of Code - Log
 
+###################################################################################################
+
 ### Day 0: March 14, 2019
 
 **Today's Progress**: Added Social Box and CSS to BlogCreator(Medium Knockoff). Created Twitter account for coding only and began my posting-spree! Also added automatic loading to the Blog Creator page, so that previous work is auto-reloaded when returning to page.
@@ -10,6 +12,8 @@
 
 # 100 Days Of Code - Log
 
+###################################################################################################
+
 ### Day 1 : March 15, 2019
 
 **Today's Progress**: Moved My Firestore app config in blog-store over to a .env file unsuccesfully - attempting to add Auth to my blog-store app. Seemed like too big of a beast to tackle today, so moved onto a new app that Auth's with firestore, that I can use as an example in the app that already writes to the Firestore db - without breaking it.  
@@ -19,6 +23,8 @@ Also began work on a simple timer - to serve as a reminder for javascript Date f
 
 **Link to work2:** [Blog-Site](https://github.com/kirbycampbell/blog-site)(https://github.com/kirbycampbell/simple-reminder)
 
+###################################################################################################
+
 ### Day 2 : March 16, 2019
 
 **Today's Progress**: Made minor stylizing progress with Meditation counter app -
@@ -26,3 +32,13 @@ Also began work on a simple timer - to serve as a reminder for javascript Date f
 **Thoughts:** time was crunched due to massive 10k+ power outage in portland... 12 hours without power on day 3 of 100 days of code - will do 5x the work tomorrow to make up for the city's disaster.
 
 **Link to work2:** [Blog-Site](https://github.com/kirbycampbell/blog-site)(https://github.com/kirbycampbell/simple-reminder)
+
+###################################################################################################
+
+### Day 3 : March 17, 2019
+
+**Today's Progress**: ReWrote the Meditation Timer from the ground up in React Hooks as a new challenge. Implemented a custom hook from Dan Abramov called useInterval. Added Howl library for playing a peaceful gong sound when meditation is over. Changed form protection - only accepts numbers from 1-140.
+
+**Thoughts:** : Ran into some new issues with setInterval and setTimeout not functioning properly with React's new Hooks update. Otherwise I love the new Hook's useState syntax, so visually appealing now, and much easier to implement state changes without the "this" keyword. Combed through several Audio libraries for react and landed on Howl - worked great for the gong sound at the end.
+
+**Link to work2:** [Blog-Site](https://github.com/kirbycampbell/meditation-timer-hooks)
