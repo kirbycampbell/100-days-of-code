@@ -78,3 +78,13 @@ Thus far my entire project is within the App.js file since I'm avoiding breaking
 I need to figure that out soon, as the app is about to get much more complicated!
 
 **Link to work4:** [Blog-Site](https://github.com/kirbycampbell/meditation-timer-hooks)
+
+###################################################################################################
+
+### Day 5 : March 19, 2019
+
+**Today's Progress**:Refactored The Meditation app into containers. Figured out the difference between regular React/Props and ReactHooks/Props - Passing Down UseState into the Components!
+
+**Thoughts:** : Broke through on my props issue, Organized the project so much more! Next up is making each user selection show up and effect it's own state for the background music, the end sound, and the timer. Need to add ability to save Different Timers.
+
+**Link to work4:** [Blog-Site](https://github.com/kirbycampbell/meditation-timer-hooks)
