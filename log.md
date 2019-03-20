@@ -45,7 +45,7 @@ As of now it's crude, but it's doing things!
 
 **Thoughts:** time was crunched due to massive 10k+ power outage in portland... 12 hours without power on day 3 of 100 days of code - will do 5x the work tomorrow to make up for the city's disaster.
 
-**Link to work2:** [Blog-Site](https://github.com/kirbycampbell/blog-site)(https://github.com/kirbycampbell/simple-reminder)
+**Link to work2:** [Blog-Site & Meditation-Timer](https://github.com/kirbycampbell/blog-site)(https://github.com/kirbycampbell/simple-reminder)
 
 ###################################################################################################
 
@@ -63,7 +63,7 @@ Combed through several Audio libraries for react and landed on Howl
 
 - worked great for the gong sound at the end.
 
-**Link to work3:** [Blog-Site](https://github.com/kirbycampbell/meditation-timer-hooks)
+**Link to work3:** [Meditation-Timer](https://github.com/kirbycampbell/meditation-timer-hooks)
 
 ###################################################################################################
 
@@ -77,7 +77,7 @@ It was also pretty hard to find any examples of props being used with Hooks.
 Thus far my entire project is within the App.js file since I'm avoiding breaking it down into seperate components and containers.
 I need to figure that out soon, as the app is about to get much more complicated!
 
-**Link to work4:** [Blog-Site](https://github.com/kirbycampbell/meditation-timer-hooks)
+**Link to work4:** [Meditation-Timer](https://github.com/kirbycampbell/meditation-timer-hooks)
 
 ###################################################################################################
 
@@ -87,4 +87,19 @@ I need to figure that out soon, as the app is about to get much more complicated
 
 **Thoughts:** : Broke through on my props issue, Organized the project so much more! Next up is making each user selection show up and effect it's own state for the background music, the end sound, and the timer. Need to add ability to save Different Timers.
 
-**Link to work4:** [Blog-Site](https://github.com/kirbycampbell/meditation-timer-hooks)
+**Link to work4:** [Meditation-Timer](https://github.com/kirbycampbell/meditation-timer-hooks)
+
+###################################################################################################
+
+### Day 6 : March 20, 2019
+
+**Today's Progress**: Began a new project that will become my official/printable resume for job hunting.
+I styled purely in CSS, and rendered with jsx in React. Overcame many css grid obstacles, and began planning my personal info that will go inside of the resume.
+
+**Thoughts:** : Initally had trouble laying out the grids correctly, but eventually got it looking amazing.  
+Added Dividers in between each section too.  
+For right now there are still borders around each section.  
+Those will be removed once all of the typed info is in place.  
+It's good to see the boundaries and expand and contract as neccessary.
+
+**Link to work4:** [Resume](https://github.com/kirbycampbell/kirby-resume)
