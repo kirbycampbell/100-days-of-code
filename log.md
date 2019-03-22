@@ -103,3 +103,13 @@ Those will be removed once all of the typed info is in place.
 It's good to see the boundaries and expand and contract as neccessary.
 
 **Link to work4:** [Resume](https://github.com/kirbycampbell/kirby-resume)
+
+### Day 7 : March 21, 2019
+
+**Today's Progress**: Began another new project - called Chat_App for now...
+I began with experimenting with GraphQL Schemas, and running into brick-walls with aws amplify as its been a month since I've worked in that setting.
+
+**Thoughts:** : The Chat app is aiming to be a fully featured web chat program, with the ability to live chat (seeing each letter as its typed if the users choose so) while also allowing message editing to avoid \*typocorrection messages.
+Hopefully this app could be converted into a React Native app for android SMS messaging, or simply existing like a Whatsapp program but with more features.
+
+**Link to work4:** [Chat_App](https://github.com/kirbycampbell/chat_app)
