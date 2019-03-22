@@ -104,6 +104,8 @@ It's good to see the boundaries and expand and contract as neccessary.
 
 **Link to work4:** [Resume](https://github.com/kirbycampbell/kirby-resume)
 
+###################################################################################################
+
 ### Day 7 : March 21, 2019
 
 **Today's Progress**: Began another new project - called Chat_App for now...
@@ -111,5 +113,20 @@ I began with experimenting with GraphQL Schemas, and running into brick-walls wi
 
 **Thoughts:** : The Chat app is aiming to be a fully featured web chat program, with the ability to live chat (seeing each letter as its typed if the users choose so) while also allowing message editing to avoid \*typocorrection messages.
 Hopefully this app could be converted into a React Native app for android SMS messaging, or simply existing like a Whatsapp program but with more features.
+
+**Link to work4:** [Chat_App](https://github.com/kirbycampbell/chat_app)
+
+###################################################################################################
+
+### Day 8 : March 22, 2019
+
+**Today's Progress**: Continued working on the Chat app and its backend through AWS/Amplify GraphQL.
+Successfully defined a simple schema for the messages only, and implemented functions within my that could mutate, query, and subscribe to the Hosted Backend.  
+The App Auto loads the messages now with the newest message at the bottom, with an auto scroll to the bottom.  
+Anytime a new message is sent, the chat is automatically updated and scrolled to the bottom as well.
+
+**Thoughts:** : Had some holds ups when I got to the subscription material, but I ended up including it in the open within my React Class.  
+Also had a bit of trouble setting up the auto-scroll upon receiving new messages, It works right now, but not consistently... We shall see about that.
+Also did some styling and css in general.
 
 **Link to work4:** [Chat_App](https://github.com/kirbycampbell/chat_app)
