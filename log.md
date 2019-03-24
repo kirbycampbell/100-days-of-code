@@ -130,3 +130,21 @@ Also had a bit of trouble setting up the auto-scroll upon receiving new messages
 Also did some styling and css in general.
 
 **Link to work4:** [Chat_App](https://github.com/kirbycampbell/chat_app)
+
+###################################################################################################
+
+### Day 9 : March 23, 2019
+
+**Today's Progress**: Today I expanded my Auth functionality on the Chat App.
+-Also restyled the app to a dark mode while I'm in production (easier on the eyes).
+-I created a NavBar, which adds a User Sign in Functionality - though I still need to implement the login feature now that I've figured out how to Authorize without using CognitoUserPools through AWS, which were causing massive issues (like the lack of ability to search for users in the listUsers function provided by AWS...).  
+-I also broke out the NavBar component into its own component, and then converted it over to React Hooks syntax (because I love Hooks).  
+-Overall - incredibly productive day on the backend side of things!
+
+**Thoughts:** : The app doesn't "look" too much different from yesterday, but the backend and my understanding of AWS amplify has drastically changed.  
+I felt overwhelmed for much of the day, and I'm ending feeling like I "Broke through" with a side of confidence.  
+Now that I ditched AWS Auth, I plan to just use bcryptjs to hash and unhash the passwords, and have the entire app live within an authenticated Component, of my own making.  
+This will then allow specific chat rooms with each user.
+It's coming together... GraphQL MongoDB AWS Backend is working great with amplify, front end is querying, mutating, and subscribing correctly to that backend, and I'm no longer having Auth issues... Great code day!
+
+**Link to work4:** [Chat_App](https://github.com/kirbycampbell/chat_app)
