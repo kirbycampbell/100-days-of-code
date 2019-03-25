@@ -77,7 +77,7 @@ It was also pretty hard to find any examples of props being used with Hooks.
 Thus far my entire project is within the App.js file since I'm avoiding breaking it down into seperate components and containers.
 I need to figure that out soon, as the app is about to get much more complicated!
 
-**Link to work4:** [Meditation-Timer](https://github.com/kirbycampbell/meditation-timer-hooks)
+**Link to work:** [Meditation-Timer](https://github.com/kirbycampbell/meditation-timer-hooks)
 
 ###################################################################################################
 
@@ -87,7 +87,7 @@ I need to figure that out soon, as the app is about to get much more complicated
 
 **Thoughts:** : Broke through on my props issue, Organized the project so much more! Next up is making each user selection show up and effect it's own state for the background music, the end sound, and the timer. Need to add ability to save Different Timers.
 
-**Link to work4:** [Meditation-Timer](https://github.com/kirbycampbell/meditation-timer-hooks)
+**Link to work:** [Meditation-Timer](https://github.com/kirbycampbell/meditation-timer-hooks)
 
 ###################################################################################################
 
@@ -102,7 +102,7 @@ For right now there are still borders around each section.
 Those will be removed once all of the typed info is in place.  
 It's good to see the boundaries and expand and contract as neccessary.
 
-**Link to work4:** [Resume](https://github.com/kirbycampbell/kirby-resume)
+**Link to work:** [Resume](https://github.com/kirbycampbell/kirby-resume)
 
 ###################################################################################################
 
@@ -114,7 +114,7 @@ I began with experimenting with GraphQL Schemas, and running into brick-walls wi
 **Thoughts:** : The Chat app is aiming to be a fully featured web chat program, with the ability to live chat (seeing each letter as its typed if the users choose so) while also allowing message editing to avoid \*typocorrection messages.
 Hopefully this app could be converted into a React Native app for android SMS messaging, or simply existing like a Whatsapp program but with more features.
 
-**Link to work4:** [Chat_App](https://github.com/kirbycampbell/chat_app)
+**Link to work:** [Chat_App](https://github.com/kirbycampbell/chat_app)
 
 ###################################################################################################
 
@@ -129,7 +129,7 @@ Anytime a new message is sent, the chat is automatically updated and scrolled to
 Also had a bit of trouble setting up the auto-scroll upon receiving new messages, It works right now, but not consistently... We shall see about that.
 Also did some styling and css in general.
 
-**Link to work4:** [Chat_App](https://github.com/kirbycampbell/chat_app)
+**Link to work:** [Chat_App](https://github.com/kirbycampbell/chat_app)
 
 ###################################################################################################
 
@@ -147,4 +147,27 @@ Now that I ditched AWS Auth, I plan to just use bcryptjs to hash and unhash the 
 This will then allow specific chat rooms with each user.
 It's coming together... GraphQL MongoDB AWS Backend is working great with amplify, front end is querying, mutating, and subscribing correctly to that backend, and I'm no longer having Auth issues... Great code day!
 
-**Link to work4:** [Chat_App](https://github.com/kirbycampbell/chat_app)
+**Link to work:** [Chat_App](https://github.com/kirbycampbell/chat_app)
+
+###################################################################################################
+
+### Day 10 : March 24, 2019
+
+**Today's Progress**: So MUCH Code. Watched hours of video on useEffect and useReducer Hooks - gained much better understanding of them.  
+Utilized the new techniques and converted my entire chat app to React Hooks from regular React.  
+Began with just converting individual components to Hooks, out of all code initially living in App.js.
+Overcame props roadblock, and sent variables from lower component children up to higher level parents.
+Moved Queries into the components they belonged with, and converted code as neccessary(spreading prevState was new syntax in Hooks).
+Similarly, added the subscriptions into my Hooks components, and used the useEffect hook to call both Queries, Mutations, and Subscriptions from my Graphql DB.
+Ended with a massive laying down of comments.
+And p.s.'d the day with a little console.log of each message's id - for editing later.
+
+**Thoughts:** : I really enjoyed the pace of the coding today. Concepts were brand new to me at the beginning of the day (useEffect, props with hooks, etc...) and by the end of the day, I was using the concepts confidently from memory.  
+The App feels like its past the "overwhelming" point, since the backend is in my control and understand, and so is the frontend.  
+Once theres a firm grasp on those aspects, the rest feels like "creative" time-- I'm pumped to get back to coding it tomorrow.
+
+TODO: Persist User Sign In - and move it to the App.js file. The FriendList and ChatBox components will render signIn messages. (TypeBox won't show up when not signed in)
+TODO: User search function - by name, or ID. (grep the user's search term using queries that use the grep)
+TODO: Make text bubbles editable. New Text should be "red". Add an edited "note" and a "plus" button so you can see the old message. (this won't be actually editing but just taking the createdAt and matching the old one. )
+
+**Link to work:** [Chat_App](https://github.com/kirbycampbell/chat_app)
