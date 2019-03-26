@@ -171,3 +171,23 @@ TODO: User search function - by name, or ID. (grep the user's search term using 
 TODO: Make text bubbles editable. New Text should be "red". Add an edited "note" and a "plus" button so you can see the old message. (this won't be actually editing but just taking the createdAt and matching the old one. )
 
 **Link to work:** [Chat_App](https://github.com/kirbycampbell/chat_app)
+
+###################################################################################################
+
+### Day 11 : March 24, 2019
+
+**Today's Progress**: ChatApp now only renders list of Users and Open Conversation when User has signed up for an account.  
+The Sign Up Button Now turns on a sign up form, which can be cancelled, returning the sign up button.  
+The User that signs up now mutates the Backend DB, and then from the App.js the app queries the backend for that user (just as would happen during a login cycle) and if it finds the user, the full user's backend stats are saved and able to be sent into each component.  
+Next I added bcryptjs, practiced hashing passwords, and getting correct returns - currently being testing by two buttons:: make password - and check password.  
+Great progress today!
+
+**Thoughts:** : I spent most of my time today figuring out the GraphQL Amplify syntax for filtering for a certain username.  
+Honestly, it was auto filtering 10 users each time, and checking those ten for my userName - so it failed 70% of the time, which had me confused...
+Until I added a much higher limit to the search - and then the filter worked every time.  
+Next up, I need to add the bcrypt hashing and comparing to the passwords when the user signs up and when they login.  
+Also need to add plain login support.  
+And then I can add individual conversations with each User signed up.  
+And add a User search function, which live updates as a user types!  
+Should be easy now that I've figured out the backend filtering process!
+**Link to work:** [Chat_App](https://github.com/kirbycampbell/chat_app)
