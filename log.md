@@ -174,7 +174,7 @@ TODO: Make text bubbles editable. New Text should be "red". Add an edited "note"
 
 ###################################################################################################
 
-### Day 11 : March 24, 2019
+### Day 11 : March 25, 2019
 
 **Today's Progress**: ChatApp now only renders list of Users and Open Conversation when User has signed up for an account.  
 The Sign Up Button Now turns on a sign up form, which can be cancelled, returning the sign up button.  
@@ -190,4 +190,19 @@ Also need to add plain login support.
 And then I can add individual conversations with each User signed up.  
 And add a User search function, which live updates as a user types!  
 Should be easy now that I've figured out the backend filtering process!
+**Link to work:** [Chat_App](https://github.com/kirbycampbell/chat_app)
+
+###################################################################################################
+
+### Day 12 : March 26, 2019
+
+**Today's Progress**: Today I spent a lot of time working on bcryptjs and its functionality in React Components.  
+So far it was unsuccessful in sending the hashed password to the database and comparing it to the user's entered password (for sign in) but I will break through tomorrow!
+
+**Thoughts:** : Bcryptjs has a delay when hashing a password, and React Hooks doesn't utilize setTimeout in the same was as regular Javascript, it requires a hook, like I used in the meditation timer.  
+So I never figured out my problem today, but I plan to knock it out first thing in the morning.  
+The User would click sign up --- the username/password sends to a function that uses bcrypt to hash the password, where that newly hashed password is saved to the state as hashPass.
+The hashs pass is then saved to the DB along with the username... but the DB kept denying the hash pass because the hash wasn't created by the time it mutates the back end, even though I ordered them correctly.  
+So Tomorrow, I plan to add a 2 second timer, using useInterval, and delay the database mutation until the password is hashed.  
+Or use some sort of async/await situation might help!
 **Link to work:** [Chat_App](https://github.com/kirbycampbell/chat_app)
