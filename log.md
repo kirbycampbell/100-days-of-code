@@ -206,3 +206,12 @@ The hashs pass is then saved to the DB along with the username... but the DB kep
 So Tomorrow, I plan to add a 2 second timer, using useInterval, and delay the database mutation until the password is hashed.  
 Or use some sort of async/await situation might help!
 **Link to work:** [Chat_App](https://github.com/kirbycampbell/chat_app)
+
+###################################################################################################
+
+### Day 13 : March 27, 2019
+
+**Today's Progress**: Accomplished adding bcryptjs password hashing to my auth routing in ChatApp. First the User signs up, the password gets hashed by bcryptjs, I set a 2 second timer off with useInterval hook, and then send the hashed password to the backend. The timer is there to compensate for the slight delay hashing uses. Then the login info is sent to the outer App.js file and then the user is filtered through the database, and the stored hashed password is compared with the one the user entered. I also saved the User's hashed password and username in their localstorage, which gets deleted whenever the user logs out. That way, the user stays logged in once they log in. useEffect hook grabs the localstorage to check if the user left their login info available for keeping them logged in!
+
+**Thoughts:** : Had a lot of fun implementing this today - it actually went pretty smoothly! The localStorage part caused some issues, but I realized I could just compare the user's database hash with the hash that saved on the localstorage, since those will always be the same. Simple if statement before it uses bCrypt.compare.
+**Link to work:** [Chat_App](https://github.com/kirbycampbell/chat_app)
