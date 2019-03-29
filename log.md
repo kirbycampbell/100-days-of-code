@@ -215,3 +215,12 @@ Or use some sort of async/await situation might help!
 
 **Thoughts:** : Had a lot of fun implementing this today - it actually went pretty smoothly! The localStorage part caused some issues, but I realized I could just compare the user's database hash with the hash that saved on the localstorage, since those will always be the same. Simple if statement before it uses bCrypt.compare.
 **Link to work:** [Chat_App](https://github.com/kirbycampbell/chat_app)
+
+###################################################################################################
+
+### Day 14 : March 28, 2019
+
+**Today's Progress**: Spent most of the day using trial and error to attempt mutations to the graphql backend for the ChatApp with relationship GraphQL database connections. I spent a ton of time reading documentation of GraphQL and Amplify and attempting the fixes.
+
+**Thoughts:** : Not everyday can have visible forward progress, especially when the work is all done in the backend. Today was one of those days, I was able to get conversations created in the backend, but unable to add arrays of users to the previously created conversation. Once this ID connection is made, I should be able to render individual chat bubbles. Perhaps injecting the conversation ID into the User model as an array would be the best way. Then I could use each user's ID to search for a matching conversation. Though that would cause problems if user's have multiple group chats with one another. So perhaps conversations need to be their entity, containing users... and including a conversation array, and each post within that conversation can have a "sender" who wrote that message. That way the user is in each chat as if it's a chat room, but only between private members.
+**Link to work:** [Chat_App](https://github.com/kirbycampbell/chat_app)
