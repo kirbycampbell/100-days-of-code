@@ -224,3 +224,12 @@ Or use some sort of async/await situation might help!
 
 **Thoughts:** : Not everyday can have visible forward progress, especially when the work is all done in the backend. Today was one of those days, I was able to get conversations created in the backend, but unable to add arrays of users to the previously created conversation. Once this ID connection is made, I should be able to render individual chat bubbles. Perhaps injecting the conversation ID into the User model as an array would be the best way. Then I could use each user's ID to search for a matching conversation. Though that would cause problems if user's have multiple group chats with one another. So perhaps conversations need to be their entity, containing users... and including a conversation array, and each post within that conversation can have a "sender" who wrote that message. That way the user is in each chat as if it's a chat room, but only between private members.
 **Link to work:** [Chat_App](https://github.com/kirbycampbell/chat_app)
+
+###################################################################################################
+
+### Day 15 : March 29, 2019
+
+**Today's Progress**: Broke through on the backend of the ChatApp after having some issues with Amplify resolvers. Accomplished adding conversation ID's to a user's conversation array. Found the correct syntax in aws Appsync console under the schema for ChatApp. Spent probably 5 hours working on the backend. Very happy with the breakthrough, even though there isn't much thats chagned on the front end yet.
+
+**Thoughts:** : Today was another one of those days where you don't "see" the progress, but it was invaluable work on my backend, and in general - my understanding of GraphQL and Amplify/AppSync AWS stuff. Very happy with it all. I had to change repos since the resolvers ran into an unfixable error with Amplify also - so made a new react app, and just copied all of my files and deps over.
+**Link to work:** [Chatterson](https://github.com/kirbycampbell/chatterson)
