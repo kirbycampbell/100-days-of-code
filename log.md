@@ -233,3 +233,12 @@ Or use some sort of async/await situation might help!
 
 **Thoughts:** : Today was another one of those days where you don't "see" the progress, but it was invaluable work on my backend, and in general - my understanding of GraphQL and Amplify/AppSync AWS stuff. Very happy with it all. I had to change repos since the resolvers ran into an unfixable error with Amplify also - so made a new react app, and just copied all of my files and deps over.
 **Link to work:** [Chatterson](https://github.com/kirbycampbell/chatterson)
+
+###################################################################################################
+
+### Day 16 : March 30, 2019
+
+**Today's Progress**: Readjusted the GraphQL schema to give conversations many posts through a join table, on top of the many to many relationship between users and conversations through the UserConvos join table. After amplify pushing all of those schema changes, I ran several tests towards creating a conversation when the user clicks another user, and adding both users to that new conversation. I was then able to console.log the user's database file to see the join table listed within that user's conversation array. It all worked!
+
+**Thoughts:** : Next up tomorrow will be the act of implementing features based on my new breakthroughs! I will first apply a query for the chatbox to search the join table's conversation for the list of posts within the conversation between the two users. I will then add subscriptions for this spcific conversation's Id - (new concept - specific subscriptions vs. wide open subscriptions which I've done before). This is truly getting into the nitty gritty of backend work - and it definitely feels complicated and abstract! But wow does it feel good to have it all working! Oh and I also need to add some verifications for when a user tries to login but mistypes their info, or when the localStorage tries to retreive the wrong user/password (from a previous database- unlikely issue, but could happen.)
+**Link to work:** [Chatterson](https://github.com/kirbycampbell/chatterson)
