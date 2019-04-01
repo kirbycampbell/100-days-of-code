@@ -242,3 +242,12 @@ Or use some sort of async/await situation might help!
 
 **Thoughts:** : Next up tomorrow will be the act of implementing features based on my new breakthroughs! I will first apply a query for the chatbox to search the join table's conversation for the list of posts within the conversation between the two users. I will then add subscriptions for this spcific conversation's Id - (new concept - specific subscriptions vs. wide open subscriptions which I've done before). This is truly getting into the nitty gritty of backend work - and it definitely feels complicated and abstract! But wow does it feel good to have it all working! Oh and I also need to add some verifications for when a user tries to login but mistypes their info, or when the localStorage tries to retreive the wrong user/password (from a previous database- unlikely issue, but could happen.)
 **Link to work:** [Chatterson](https://github.com/kirbycampbell/chatterson)
+
+###################################################################################################
+
+### Day 17 : March 31, 2019
+
+**Today's Progress**: Got the Join Tables to successfully add a conversation to a user's backend array. The Conversation ID sends to the outer App.js and can then be used within the TypeBox Component for mutating the posts. Worked on adding Posts to conversations, with some luck, but it's not returning the way I'd like it to. I'll need to play with the schema some more tomorrow to get it saving posts correctly.
+
+**Thoughts:** : I'm still not 100% sure about the way the User & Conversations join and return. I'd attempted a few alternate schema options, but none were giving arrays like this current join table is. I had a breakthrough when I decided to name the UserConvo models as a mixture of both the selected User's Id and the Logged in User's Id - which made the convo between the two users searchable through queries.getConversations with an easy props.selectedConvo + props.user.id variable combination!
+**Link to work:** [Chatterson](https://github.com/kirbycampbell/chatterson)
