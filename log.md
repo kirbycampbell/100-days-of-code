@@ -251,3 +251,13 @@ Or use some sort of async/await situation might help!
 
 **Thoughts:** : I'm still not 100% sure about the way the User & Conversations join and return. I'd attempted a few alternate schema options, but none were giving arrays like this current join table is. I had a breakthrough when I decided to name the UserConvo models as a mixture of both the selected User's Id and the Logged in User's Id - which made the convo between the two users searchable through queries.getConversations with an easy props.selectedConvo + props.user.id variable combination!
 **Link to work:** [Chatterson](https://github.com/kirbycampbell/chatterson)
+
+###################################################################################################
+
+### Day 18 : April 1, 2019
+
+**Today's Progress**: First I tackled the Conversation connections, and then was able to query the conversation for it's posts, and load those into the conversation array, which maps onto the DOM. I then added subscriptions and those seemed to be working. After experimenting with 3 users, I realized the subsription wasn't filtering properly, and the messages are limited to 10. So that's the next thing to fix!
+
+**Thoughts:** : I always seem to end the day on a "stuck" point, but today really had several bright points and _hand waving_ successes! Finally tying the Users to the conversations, and no matter which user clicks on the other, the conversation is found. Also finally seeing the convo render on the screen was amazing, and seeing it change when i chose another user. Just need to fix the limit and subscription issue. Also it would be nice to cache every convo that I've opened and then just subscribe to changes or query after opening and compare to the current cache. That way the app is faster. I could place the open conversations in a tab above the ChatBox, or the FriendBox could be all of the open conversations, and I could just create a User Search Function to begin new conversations.
+
+**Link to work:** [Chatterson](https://github.com/kirbycampbell/chatterson)
