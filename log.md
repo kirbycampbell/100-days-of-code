@@ -261,3 +261,13 @@ Or use some sort of async/await situation might help!
 **Thoughts:** : I always seem to end the day on a "stuck" point, but today really had several bright points and _hand waving_ successes! Finally tying the Users to the conversations, and no matter which user clicks on the other, the conversation is found. Also finally seeing the convo render on the screen was amazing, and seeing it change when i chose another user. Just need to fix the limit and subscription issue. Also it would be nice to cache every convo that I've opened and then just subscribe to changes or query after opening and compare to the current cache. That way the app is faster. I could place the open conversations in a tab above the ChatBox, or the FriendBox could be all of the open conversations, and I could just create a User Search Function to begin new conversations.
 
 **Link to work:** [Chatterson](https://github.com/kirbycampbell/chatterson)
+
+###################################################################################################
+
+### Day 18 : April 1, 2019
+
+**Today's Progress**: Officially solved the Querying & Subscription Problems with my GraphQL backend on my ChatApp. Now I can switch between conversations with users, and only the messages with that user group shows up. Also implemented Subscriptions correctly! Began cleaning up the dual side issues, but saving further exploration into that topic until tomorrow!
+
+**Thoughts:** : Today was another big "AHA!" moment when I figured out the filtering process, and using the {eq: convoId} GraphQL syntax. Now I really know what those query "filters" mean in the amplify portion of my code. Pretty amazing stuff really! I then tried to log on as a new user, create a conversation with my Main UserNumOne, and type something. First Error- the post shows up on the other screen, no matter who the other user wrote to. So the subscription pulls every new post, its not filtering. Second Error - When a user creates a convo with another user, the other user doesn't seem to have the conversation within their array, because it was returning an error when I clicked on the combination of users for that convo. So I need to check that the Users both have the convo within their arrays, and if not, do something about it!!
+
+**Link to work:** [Chatterson](https://github.com/kirbycampbell/chatterson)
