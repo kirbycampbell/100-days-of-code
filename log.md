@@ -264,10 +264,20 @@ Or use some sort of async/await situation might help!
 
 ###################################################################################################
 
-### Day 18 : April 1, 2019
+### Day 19 : April 2, 2019
 
 **Today's Progress**: Officially solved the Querying & Subscription Problems with my GraphQL backend on my ChatApp. Now I can switch between conversations with users, and only the messages with that user group shows up. Also implemented Subscriptions correctly! Began cleaning up the dual side issues, but saving further exploration into that topic until tomorrow!
 
 **Thoughts:** : Today was another big "AHA!" moment when I figured out the filtering process, and using the {eq: convoId} GraphQL syntax. Now I really know what those query "filters" mean in the amplify portion of my code. Pretty amazing stuff really! I then tried to log on as a new user, create a conversation with my Main UserNumOne, and type something. First Error- the post shows up on the other screen, no matter who the other user wrote to. So the subscription pulls every new post, its not filtering. Second Error - When a user creates a convo with another user, the other user doesn't seem to have the conversation within their array, because it was returning an error when I clicked on the combination of users for that convo. So I need to check that the Users both have the convo within their arrays, and if not, do something about it!!
 
 **Link to work:** [Chatterson](https://github.com/kirbycampbell/chatterson)
+
+###################################################################################################
+
+### Day 20 : April 3, 2019
+
+**Today's Progress**: Add functionality to the meditation timer app I had been working on a week ago. I added another div beneath the user buttons, describing what each button does. I then connected each button to functions in the outermost component. Those functions then remove the timer view and clear up space for the new forms. I also found new sounds to add to my S3 bucket and added a few into my app with howl.
+
+**Thoughts:** : Now that I've added multiple sounds into my app (can't select them yet) I'm tons of No-Cors-Access-Control errors. I think the issue stems from my files on S3 themselves, so I need to figure that out to avoid memory leaks. Otherwise everything went smoothly adding the new functions and button calls. Wasn't able to put much more than an hour in today, since I had tons of College work to catch up on, as well as Music Production deadlines this week. Feeling incredibly accomplished though!
+
+**Link to work:** [Meditation-Timer](https://github.com/kirbycampbell/meditation-timer-hooks)
