@@ -281,3 +281,13 @@ Or use some sort of async/await situation might help!
 **Thoughts:** : Now that I've added multiple sounds into my app (can't select them yet) I'm tons of No-Cors-Access-Control errors. I think the issue stems from my files on S3 themselves, so I need to figure that out to avoid memory leaks. Otherwise everything went smoothly adding the new functions and button calls. Wasn't able to put much more than an hour in today, since I had tons of College work to catch up on, as well as Music Production deadlines this week. Feeling incredibly accomplished though!
 
 **Link to work:** [Meditation-Timer](https://github.com/kirbycampbell/meditation-timer-hooks)
+
+###################################################################################################
+
+### Day 21 : April 4, 2019
+
+**Today's Progress**: Solved the dual conversation issue in ChatApp. It involved pulling two query's from the backend and whichever one returned something first is the conversation that both users will see. Attempted building a custom resolver on AWS for subscribing to new posts, havent exactly figured that one out yet!
+
+**Thoughts:** : Another one of those great sighs of relief after solving the conversation bug, which led me straight into road blocks with the subscription issues. The subscription is pulling up every new post created when i subscribe to new posts, regarldess of my filtering. When I subscribe to the updatedConversation, I'm limited with how the conversation returns only 10 posts. The conversation subscription seems to be more correct though, so perhaps that's the route I should take, and find a way to unlock the limit on the conversation subscription!
+
+**Link to work:** [Chatterson](https://github.com/kirbycampbell/chatterson)
