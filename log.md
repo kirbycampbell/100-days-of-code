@@ -291,3 +291,13 @@ Or use some sort of async/await situation might help!
 **Thoughts:** : Another one of those great sighs of relief after solving the conversation bug, which led me straight into road blocks with the subscription issues. The subscription is pulling up every new post created when i subscribe to new posts, regarldess of my filtering. When I subscribe to the updatedConversation, I'm limited with how the conversation returns only 10 posts. The conversation subscription seems to be more correct though, so perhaps that's the route I should take, and find a way to unlock the limit on the conversation subscription!
 
 **Link to work:** [Chatterson](https://github.com/kirbycampbell/chatterson)
+
+###################################################################################################
+
+### Day 22 : April 5, 2019
+
+**Today's Progress**: Worked on Custom subscription resolvers on the AWS Appsync & Amplify schema.
+
+**Thoughts:** : I was attempting to add convo Id's as the element to subscribe to on any given post. That way the subscription would be tied to the conversation, but only pulling new posts that contained that specific conversation Id. When I tried to subscribe to the conversation itself, i was getting back the deeply nested array of posts, but couldn't find a way to alter the limit of 10 on those posts. I also tried sorting that deeply nested array of posts so that I only received the most recent 10, but that didn't work either. So today was more of a frustrated experimentation type of day with no clear success, though I did learn a bit about resolvers in the process, which is great!
+
+**Link to work:** [Chatterson](https://github.com/kirbycampbell/chatterson)
