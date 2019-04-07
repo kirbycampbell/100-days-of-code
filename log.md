@@ -301,3 +301,13 @@ Or use some sort of async/await situation might help!
 **Thoughts:** : I was attempting to add convo Id's as the element to subscribe to on any given post. That way the subscription would be tied to the conversation, but only pulling new posts that contained that specific conversation Id. When I tried to subscribe to the conversation itself, i was getting back the deeply nested array of posts, but couldn't find a way to alter the limit of 10 on those posts. I also tried sorting that deeply nested array of posts so that I only received the most recent 10, but that didn't work either. So today was more of a frustrated experimentation type of day with no clear success, though I did learn a bit about resolvers in the process, which is great!
 
 **Link to work:** [Chatterson](https://github.com/kirbycampbell/chatterson)
+
+###################################################################################################
+
+### Day 23 : April 6, 2019
+
+**Today's Progress**: Continued working on subscriptions within ChatApp. Created my own subscription constant, and dove deeper into the resolvers on AWS. Even tried altering the arguments allowed, but ran into strange errors. Reverted back to where I left off yesterday by the end, but gained awesome knowledge and confidence in AWS Appsync resolvers and the in depth schema on their platform.
+
+**Thoughts:** : Not everyday is forward progress, some take you sideways. I did learn alot within the AWS Appsync realm, as well as altering resolvers to return specific amounts of items when queried. Next I need to alter the resolvers to sort in ascending order as well. That way the top result is the newly pushed item. Its ideal that the conversation is the subscribed to item, since it is ultimately what is being updated. The limit on te returned posts within that updated conversation is actually desired, since I could actually limit it to a few posts that way it's only querying the db for the newest item. But in order to do that, I need the resolver to only return the newest item from the DB itself, not from within the application. I need to alter how graphql returns information, not how I call it or receive it within the component.
+
+**Link to work:** [Chatterson](https://github.com/kirbycampbell/chatterson)
