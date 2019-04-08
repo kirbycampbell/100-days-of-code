@@ -311,3 +311,13 @@ Or use some sort of async/await situation might help!
 **Thoughts:** : Not everyday is forward progress, some take you sideways. I did learn alot within the AWS Appsync realm, as well as altering resolvers to return specific amounts of items when queried. Next I need to alter the resolvers to sort in ascending order as well. That way the top result is the newly pushed item. Its ideal that the conversation is the subscribed to item, since it is ultimately what is being updated. The limit on te returned posts within that updated conversation is actually desired, since I could actually limit it to a few posts that way it's only querying the db for the newest item. But in order to do that, I need the resolver to only return the newest item from the DB itself, not from within the application. I need to alter how graphql returns information, not how I call it or receive it within the component.
 
 **Link to work:** [Chatterson](https://github.com/kirbycampbell/chatterson)
+
+###################################################################################################
+
+### Day 24 : April 7, 2019
+
+**Today's Progress**: Experimented with React-Motion, React-Transition-Group and general CSS effects within the meditation app. Not sure which one I like best, but React-Motion seems to be the most in depth which gets me excited!
+
+**Thoughts:** : This was another one of those read - try - see - repeat --- type of days. Pretty fun for sure, and learned alot! Tomorrow will be a big coding day, back to full hours of coding, not just 1 or 2 hours like I did each day this weekend!
+
+**Link to work:** [Meditation-Timer](https://github.com/kirbycampbell/meditation-timer-hooks)
