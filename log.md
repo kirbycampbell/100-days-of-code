@@ -321,3 +321,13 @@ Or use some sort of async/await situation might help!
 **Thoughts:** : This was another one of those read - try - see - repeat --- type of days. Pretty fun for sure, and learned alot! Tomorrow will be a big coding day, back to full hours of coding, not just 1 or 2 hours like I did each day this weekend!
 
 **Link to work:** [Meditation-Timer](https://github.com/kirbycampbell/meditation-timer-hooks)
+
+###################################################################################################
+
+### Day 25 : April 8, 2019
+
+**Today's Progress**: Successfully implemented subscriptions to only update the conversation being viewed. The Subscriptions no longer update the wrong conversations... the convo.id must match the convo being viewed for that to happen. Also added conditionals for mapping the conversation to seperate css className's dependant on who wrote the message, like a normal sms app. Added css for that to color the message and place them on opposite sides, so that the user will always see their own messages on the left, and the other user's on the right.
+
+**Thoughts:** : So I'm super happy to have finally gotten this feature implemented. This was quite the journey, and I had many other ways I had aimed to accomplish this, but this one just hit me last night, and even though its not the most secure, it works for now. And that's all i really need for now, since I would like to focus on something other than subscriptions for a few days now. Maybe styling is in my future next. I know continuous downward scroll is something I'll need to figure out, and also some error checking for bad login credentials. I'd also like for every user to get a choice of how their colors are perceived on other user's views, as well as their own. Need to add a special scroll bar, and highlight the user that is selected at that moment. Also a user search function would be great, and then only show the users that someone is friends with. But I should also have an auto added friend named "Kirby". Maybe even one named "God" as a joke, with some funny prebuilt AI responses.
+
+**Link to work:** [Chatterson](https://github.com/kirbycampbell/chatterson)
