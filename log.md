@@ -331,3 +331,14 @@ Or use some sort of async/await situation might help!
 **Thoughts:** : So I'm super happy to have finally gotten this feature implemented. This was quite the journey, and I had many other ways I had aimed to accomplish this, but this one just hit me last night, and even though its not the most secure, it works for now. And that's all i really need for now, since I would like to focus on something other than subscriptions for a few days now. Maybe styling is in my future next. I know continuous downward scroll is something I'll need to figure out, and also some error checking for bad login credentials. I'd also like for every user to get a choice of how their colors are perceived on other user's views, as well as their own. Need to add a special scroll bar, and highlight the user that is selected at that moment. Also a user search function would be great, and then only show the users that someone is friends with. But I should also have an auto added friend named "Kirby". Maybe even one named "God" as a joke, with some funny prebuilt AI responses.
 
 **Link to work:** [Chatterson](https://github.com/kirbycampbell/chatterson)
+
+###################################################################################################
+
+### Day 26 : April 9, 2019
+
+**Today's Progress**: Spent today working on the ChatApp some more. Cleaned up my chatbox.js code, simplified when the subscription gets set up to avoid dual subscriptions. I also added plenty of responsive css to style the app for smaller screens and phones. Added a hamburger lines for small phones to conditionally render the friendlist over the chatbox for picking friends on a small screen. For the mobile view I spread the chatbox out to 100% width, and made the send button be 100% wide too beneath the typeBox.js. Subscriptions are no longer doubling either.
+
+**Thoughts:** :
+Today finally saw some fresh visual progress which was really exciting after the past week of backend work. I love backend the most honestly, but it really is rewarding to see all of your backend get rendered beautifully to the front end and "just work"! Tomorrow will likely include furthering of styling, better user login experience and buttons, and possibly even the addition of tabs above the chat box, which will be a new component, rendering a certain set of ongoing conversations. Another great feature would be a count of unread messages next to each person's name or an exclamation point. We shall see! I also want to add editable messages if the user wrote the message, that way people can make corrections!
+
+**Link to work:** [Chatterson](https://github.com/kirbycampbell/chatterson)
