@@ -342,3 +342,13 @@ Or use some sort of async/await situation might help!
 Today finally saw some fresh visual progress which was really exciting after the past week of backend work. I love backend the most honestly, but it really is rewarding to see all of your backend get rendered beautifully to the front end and "just work"! Tomorrow will likely include furthering of styling, better user login experience and buttons, and possibly even the addition of tabs above the chat box, which will be a new component, rendering a certain set of ongoing conversations. Another great feature would be a count of unread messages next to each person's name or an exclamation point. We shall see! I also want to add editable messages if the user wrote the message, that way people can make corrections!
 
 **Link to work:** [Chatterson](https://github.com/kirbycampbell/chatterson)
+
+###################################################################################################
+
+### Day 27 : April 10, 2019
+
+**Today's Progress**: Today I debugged some intense GraphQL errors that showed up out of nowhere, seemed to deal with auth. Tried to replace the auth with amplify cli, but it wouldn't allow me to update. Ended up just rebuilding another create-react-app and copying all of the files over to the new project file. While I was at it, I hosted the project live on the web. Also added a Friend Tab on top of the ChatBox for mobile user's to see who is being chatted with at any given moment.
+
+**Thoughts:** : Today was alot of debugging and rebuilding, of course it was important stuff. Only got to work on new features for about an hour or so. I had to adjust the clicking of a username to send the entire user object instead of just the id- that way the FriendTab can receive all of the selected User's information, and render the name. Soon I need to add an "Unread" message notification. Tomorrow needs to be the restyling day I've been waiting for, as I got stuck doing some more backend work today. It's always fun to see your work visually change and evolve. Possibly might mix in some tailwindcss or bootstrap!
+
+**Link to work:** [Chatterson-Chatapp](https://github.com/kirbycampbell/chatterson-chatapp)
