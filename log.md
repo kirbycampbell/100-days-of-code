@@ -362,3 +362,13 @@ Today finally saw some fresh visual progress which was really exciting after the
 **Thoughts:** : It was great diving into the nested conditionals to avoid app failure, as even just part of my else if statements were causing failure when the dbUserInfo object was returned as undefined. Now the app checks if dbUserInfo returns true, if it doesn't it states the failed message, if it does then it checks for username match, and then username and password match, and local storage username and password info compared with the backend info. The only possible failure that might still exist is if I have a user object saved in localstorage, and then rebuild the backend without that user back there. Hopefully now that process just says "user not found", which I believe it should. I won't find out until I rebuild the backend again, or delete all of my data - which will surely happen at some point!
 
 **Link to work:** [Chatterson-Chatapp](https://github.com/kirbycampbell/chatterson-chatapp)
+
+###################################################################################################
+
+### Day 29 : April 12, 2019
+
+**Today's Progress**: Added lots of little features to the ChatApp. Began with adding conditional rendering of the friendTabs and making the CSS work for those auto-columns. Once that worked out, I switched up the friendTab.js to an array state of previously selected Users (aka open Conversations). It also filters out a user if they are already within the openConvo's array.
+
+**Thoughts:** : This is the first step to switching from the friendlist on the right, to using conversation tabs, and friend's lists. I'd like the friendList.js to only list friends (giving everyone 2 friends when they are created). This will then have a search bar at the top of the friendList and will search for usernames as the user types, and give the ability to add friends to their list. This will involve changing the backend for user's, which will now involve adding the friend, which is like creating the userConvo now. Once that userConvo is created they will be added to the friend list, and both users will use that convo to speak. Now convos can be open and closed, and they wll be in a tab when opened. I next need to add the ability to close a tab, and the ability to switch the chatBox when clicking on the tabs as well. So I've got some more work to do!
+
+**Link to work:** [Chatterson-Chatapp](https://github.com/kirbycampbell/chatterson-chatapp)
