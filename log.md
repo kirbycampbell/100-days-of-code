@@ -352,3 +352,13 @@ Today finally saw some fresh visual progress which was really exciting after the
 **Thoughts:** : Today was alot of debugging and rebuilding, of course it was important stuff. Only got to work on new features for about an hour or so. I had to adjust the clicking of a username to send the entire user object instead of just the id- that way the FriendTab can receive all of the selected User's information, and render the name. Soon I need to add an "Unread" message notification. Tomorrow needs to be the restyling day I've been waiting for, as I got stuck doing some more backend work today. It's always fun to see your work visually change and evolve. Possibly might mix in some tailwindcss or bootstrap!
 
 **Link to work:** [Chatterson-Chatapp](https://github.com/kirbycampbell/chatterson-chatapp)
+
+###################################################################################################
+
+### Day 28 : April 11, 2019
+
+**Today's Progress**: Worked through some error handling today. Made sure every login and sign up error was handled. When a user tries to login with a username or password that doesn't exist, it now goes through the correct conditional processes to notify the user and avoid app failure.
+
+**Thoughts:** : It was great diving into the nested conditionals to avoid app failure, as even just part of my else if statements were causing failure when the dbUserInfo object was returned as undefined. Now the app checks if dbUserInfo returns true, if it doesn't it states the failed message, if it does then it checks for username match, and then username and password match, and local storage username and password info compared with the backend info. The only possible failure that might still exist is if I have a user object saved in localstorage, and then rebuild the backend without that user back there. Hopefully now that process just says "user not found", which I believe it should. I won't find out until I rebuild the backend again, or delete all of my data - which will surely happen at some point!
+
+**Link to work:** [Chatterson-Chatapp](https://github.com/kirbycampbell/chatterson-chatapp)
