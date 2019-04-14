@@ -382,3 +382,17 @@ Today finally saw some fresh visual progress which was really exciting after the
 **Thoughts:** : I was totally surprised by how familiar Vue.js felt coming from React. It was really a smooth transition, with many common techniques. The main difference was that each file contains all of its styling, naming, state, and templates. Passing the props up and down between parents and children is a bit more verbose than React, but I could see it being convinient for highly secure programs that need that extra optional limitation. Verbose-ness can be useful - so I see the utility of Vue for sure! I also really like how all of the info for that component is in one file, very organized. I'm sure big components get a bit out of hand though!
 
 **Link to work:** [VueApp](https://github.com/kirbycampbell/vueapp)
+
+###################################################################################################
+
+### Day 31 : April 13, 2019
+
+**Today's Progress**: Pushed further in Vue.js. Added Vue Router to my video VueApp. Long-time todoList item began today as well. The goal was to build a copy of a news journal (Council on Foreign Relations) website, and build it from scratch (without looking at their code or anything). I got incredibly far coding their site, completed the navbar, heading, scrollspy functionality, and added a lot of their content to the page. This was great CSS, and HTML practice while becoming more comfortable in the file structure and layout of Vue.js.
+
+**Thoughts:** : For styling a simple app, I really like Vue.js. With the css right below the Html, its so convinient to build a page out. Of course, I know you can do the same in React, but I tend to be a bit more organized in React and keep the css seperate. So maybe I just like vue because it brings out my laziness.
+Next up, I need to finish styling out the desktop version of the news Journal knockoff piece, and then add responsive views for larger screens, tablets, and phones - like the original page.
+Also need to add the pop up navbar when scrolling downward, and the moving sidebar which locks in place after a certain point.
+This app's aim is to show my frontend styling skills and pull off some complicated interactions and animations.
+To view the original site check it out here: https://www.cfr.org/backgrounder/naftas-economic-impact
+And Check out my version below:
+**Link to work:** [JournalApp](https://github.com/kirbycampbell/journalapp)
