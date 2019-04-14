@@ -372,3 +372,13 @@ Today finally saw some fresh visual progress which was really exciting after the
 **Thoughts:** : This is the first step to switching from the friendlist on the right, to using conversation tabs, and friend's lists. I'd like the friendList.js to only list friends (giving everyone 2 friends when they are created). This will then have a search bar at the top of the friendList and will search for usernames as the user types, and give the ability to add friends to their list. This will involve changing the backend for user's, which will now involve adding the friend, which is like creating the userConvo now. Once that userConvo is created they will be added to the friend list, and both users will use that convo to speak. Now convos can be open and closed, and they wll be in a tab when opened. I next need to add the ability to close a tab, and the ability to switch the chatBox when clicking on the tabs as well. So I've got some more work to do!
 
 **Link to work:** [Chatterson-Chatapp](https://github.com/kirbycampbell/chatterson-chatapp)
+
+###################################################################################################
+
+### Day 30 : April 13, 2019
+
+**Today's Progress**: Learned Vue.js for the first time today. Built a todoList in Vue.js inspired by traveryMedia's youtube video - I then converted it into a youtube video watch list. That involved converting all code over to vid syntax and using youtube-embed-vue npm package. Learned the new syntax and applied it into my own version of the app.
+
+**Thoughts:** : I was totally surprised by how familiar Vue.js felt coming from React. It was really a smooth transition, with many common techniques. The main difference was that each file contains all of its styling, naming, state, and templates. Passing the props up and down between parents and children is a bit more verbose than React, but I could see it being convinient for highly secure programs that need that extra optional limitation. Verbose-ness can be useful - so I see the utility of Vue for sure! I also really like how all of the info for that component is in one file, very organized. I'm sure big components get a bit out of hand though!
+
+**Link to work:** [VueApp](https://github.com/kirbycampbell/vueapp)
