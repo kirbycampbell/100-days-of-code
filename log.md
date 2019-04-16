@@ -385,7 +385,7 @@ Today finally saw some fresh visual progress which was really exciting after the
 
 ###################################################################################################
 
-### Day 31 : April 13, 2019
+### Day 31 : April 14, 2019
 
 **Today's Progress**: Pushed further in Vue.js. Added Vue Router to my video VueApp. Long-time todoList item began today as well. The goal was to build a copy of a news journal (Council on Foreign Relations) website, and build it from scratch (without looking at their code or anything). I got incredibly far coding their site, completed the navbar, heading, scrollspy functionality, and added a lot of their content to the page. This was great CSS, and HTML practice while becoming more comfortable in the file structure and layout of Vue.js.
 
@@ -396,3 +396,12 @@ This app's aim is to show my frontend styling skills and pull off some complicat
 To view the original site check it out here: https://www.cfr.org/backgrounder/naftas-economic-impact
 And Check out my version below:
 **Link to work:** [JournalApp](https://github.com/kirbycampbell/journalapp)
+
+###################################################################################################
+
+### Day 32 : April 15, 2019
+
+**Today's Progress**: Worked on my Css layout for my Resume built with html/css on top of React. It had been incredibly unresponsive, so I began converting it to a responsive site. I left the vh and vw alone, and switched to percentage and flex/grid based boxes. Took awhile to get them styled similarly. But they are moving a lot better now.
+
+**Thoughts:** : I want to eventually add lots of transitions and extra info that will pop up if a section is clicked or hovered over. It'd be really nice if the app was hyperlinked as well to blog posts of mine, music videos, photos of mixing projects, code snippets. Just overall super interactive for someone to dive deep into before the show up to my website. Should be a fun one!
+**Link to work:** [KirbyResume](https://github.com/kirbycampbell/kirby-resume)
