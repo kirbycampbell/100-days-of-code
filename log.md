@@ -405,3 +405,12 @@ And Check out my version below:
 
 **Thoughts:** : I want to eventually add lots of transitions and extra info that will pop up if a section is clicked or hovered over. It'd be really nice if the app was hyperlinked as well to blog posts of mine, music videos, photos of mixing projects, code snippets. Just overall super interactive for someone to dive deep into before the show up to my website. Should be a fun one!
 **Link to work:** [KirbyResume](https://github.com/kirbycampbell/kirby-resume)
+
+###################################################################################################
+
+### Day 32 : April 15, 2019
+
+**Today's Progress**: Continued working on the phone view of my responsive CSS/html resume. Changed Grid column templates, and spacing. Added Media queries.
+
+**Thoughts:** : Felt like a slug today through todays work. For some reason CSS just feels so clunky. If only there was 1 way to do each task made for new frameworks. Like an easier grid based CSS higher level scripting language. Could be a cool project at some point! Regardless, today was definitely some progress on the resume!
+**Link to work:** [KirbyResume](https://github.com/kirbycampbell/kirby-resume)
