@@ -408,9 +408,18 @@ And Check out my version below:
 
 ###################################################################################################
 
-### Day 32 : April 15, 2019
+### Day 33 : April 16, 2019
 
 **Today's Progress**: Continued working on the phone view of my responsive CSS/html resume. Changed Grid column templates, and spacing. Added Media queries.
 
 **Thoughts:** : Felt like a slug today through todays work. For some reason CSS just feels so clunky. If only there was 1 way to do each task made for new frameworks. Like an easier grid based CSS higher level scripting language. Could be a cool project at some point! Regardless, today was definitely some progress on the resume!
+**Link to work:** [KirbyResume](https://github.com/kirbycampbell/kirby-resume)
+
+###################################################################################################
+
+### Day 33 : April 17, 2019
+
+**Today's Progress**: Moved all of my Resume pieces into their own components and added materialUI mediaQueries to the mix. Now, two totally different components render based on the screen size, allowing me to totally redesign the resume for phones, instead of just reorganizing the elements. I also added exported consts of my personal information and skill data. Now Each component can just render the data instead of typing my information in each component's view. Keeps the resume dry! Also added a click outside component function to close the contact information view.
+
+**Thoughts:** : Today was super productive- having a well styled resume couldn't be more important for my upcoming job hunt. It was really fun playing with materialUI mediaQueries too. The main trouble I had was the skills box being broken up into multiple grids for the level of experience dots. Finally I got it with no flex or grids or anything, just floats and width. Now I can continue adding my skills, and then add a few more boxes including my projects and education.
 **Link to work:** [KirbyResume](https://github.com/kirbycampbell/kirby-resume)
