@@ -417,7 +417,7 @@ And Check out my version below:
 
 ###################################################################################################
 
-### Day 33 : April 17, 2019
+### Day 34 : April 17, 2019
 
 **Today's Progress**: Moved all of my Resume pieces into their own components and added materialUI mediaQueries to the mix. Now, two totally different components render based on the screen size, allowing me to totally redesign the resume for phones, instead of just reorganizing the elements. I also added exported consts of my personal information and skill data. Now Each component can just render the data instead of typing my information in each component's view. Keeps the resume dry! Also added a click outside component function to close the contact information view.
 
