@@ -423,3 +423,12 @@ And Check out my version below:
 
 **Thoughts:** : Today was super productive- having a well styled resume couldn't be more important for my upcoming job hunt. It was really fun playing with materialUI mediaQueries too. The main trouble I had was the skills box being broken up into multiple grids for the level of experience dots. Finally I got it with no flex or grids or anything, just floats and width. Now I can continue adding my skills, and then add a few more boxes including my projects and education.
 **Link to work:** [KirbyResume](https://github.com/kirbycampbell/kirby-resume)
+
+###################################################################################################
+
+### Day 35 : April 18, 2019
+
+**Today's Progress**: Added react-transition-group's CSStransitions to my resume app. Took a bit of fiddling, but I got the transitions to work when the contact buttons are pressed, when a user clicks outside of that area, and when the user clicks the button again to close them.
+
+**Thoughts:** : This transition element will serve as an example for me to create my own transitions and animations in many of my apps. Eventually I want most of my apps to animate when things appear and dissappear, rather than simply appearing. It's much better when things feel truly interactive and futuristic - and this CSSTransition item really helps ease that. I could possibly make an element of a component change state when I hover over it, and when that state changes, the CSSTransition can cause the element to jiggle in place, thus causing every item I hover over to be responsive. This process is much easier than manually building CSS transitions in the css file itself, since CSSTransitions gives you so many callback functions built right in!
+**Link to work:** [KirbyResume](https://github.com/kirbycampbell/kirby-resume)
