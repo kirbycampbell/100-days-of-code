@@ -432,3 +432,11 @@ And Check out my version below:
 
 **Thoughts:** : This transition element will serve as an example for me to create my own transitions and animations in many of my apps. Eventually I want most of my apps to animate when things appear and dissappear, rather than simply appearing. It's much better when things feel truly interactive and futuristic - and this CSSTransition item really helps ease that. I could possibly make an element of a component change state when I hover over it, and when that state changes, the CSSTransition can cause the element to jiggle in place, thus causing every item I hover over to be responsive. This process is much easier than manually building CSS transitions in the css file itself, since CSSTransitions gives you so many callback functions built right in!
 **Link to work:** [KirbyResume](https://github.com/kirbycampbell/kirby-resume)
+
+###################################################################################################
+
+### Day 36 : April 19, 2019
+
+**Today's Progress**: Added objects of my work/skills/project information to SkillsData.js to render dynamically on each version of the resume app. Also fully coded out the rows of Programming concepts and rated them based on my level of understanding. Added clickable interactions with the Sections of my resume, so that it can be a clean and simple view of my page. Broke most information out into their own components and css files. Will likely put those in their own folders as well tomorrow, for that totally clean folder heierarchy.
+**Thoughts:** : Who would've thought so much work would go into a resume? I definitely imagined it being simpler, but I guess that's what I get making a fully interactive resume!
+**Link to work:** [KirbyResume](https://github.com/kirbycampbell/kirby-resume)
