@@ -440,3 +440,12 @@ And Check out my version below:
 **Today's Progress**: Added objects of my work/skills/project information to SkillsData.js to render dynamically on each version of the resume app. Also fully coded out the rows of Programming concepts and rated them based on my level of understanding. Added clickable interactions with the Sections of my resume, so that it can be a clean and simple view of my page. Broke most information out into their own components and css files. Will likely put those in their own folders as well tomorrow, for that totally clean folder heierarchy.
 **Thoughts:** : Who would've thought so much work would go into a resume? I definitely imagined it being simpler, but I guess that's what I get making a fully interactive resume!
 **Link to work:** [KirbyResume](https://github.com/kirbycampbell/kirby-resume)
+
+###################################################################################################
+
+### Day 37 : April 20, 2019
+
+**Today's Progress**: Serious progress only today! Essentially finished the phoneView.js layout - added footer - added remainder of tabs - made them clickable and minimizeable. Built out the Desktop view almost fully - and did so much alternate styling for it. Added content to SkillsData.js. Hosted the app on heroku. Added a library of emojis to my data as well. OO Yea~~!
+
+**Thoughts:** : Killed it today! Never hit too many roadblocks beyond changing some of the grid layouts to flexbox in the desktop view. Really feel like the resume is coming along and looks close to complete. To finish I'd like to add transitions to the phoneView when opening and closing the sections. Also, I'd like to add little plus signs to show that the sections can be opened. Also I need to slim down the Projects section and only put the name of the project... and when a user hovers it shows the framework info fade in with opacity. On Phones it can have a little plus sign on it for the exrta info and an open button. The School education section can have a link to my flatiron certificate and my GPA standing in school. Each Skill can have a blog post of mine associated with it. Work experience can have links as well. Perhaps even when highlighted. Also need to make COntact info clickable. My face and name should take you to jkirbycampbell.com as well. Three bars on phoneview should give the option for Blog, Share, Print, Contact, and Github.
+**Link to work:** [KirbyResume](https://github.com/kirbycampbell/kirby-resume)
