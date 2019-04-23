@@ -459,3 +459,13 @@ And Check out my version below:
 **Thoughts:** : This one is nearly done. I'll probably add a few links to the paragraphs like in the original next return to this app. I also need to make this app restyle for phones, since all of my apps need to be responsive if possible!
 
 **Link to work:** [JournalApp](https://github.com/kirbycampbell/journalapp)
+
+###################################################################################################
+
+### Day 39 : April 22, 2019
+
+**Today's Progress**: Began a new migration project with learning React Hook's new useReducer Redux replacement as my main goal! I set up the overall project and created the nested flexboxes. I also added onClick handlers to each square after they styled correctly. I experimented with useReducer hook, and then tried to alter a useState object of the game for a bit.
+
+**Thoughts:** : I believe this game will be a good time to use the useReducer hook since it needs to hold a higher state than the players of the game themselves. This way each move can be logged into a higher state, and both players can play with each other. Tomorrow, I need to finish finding a way to alter the state when a specific square is clicked. Perhaps making the state a simple variable in the reducer function will solve the issues. Easy replacement, just grab the variable, and reassign the one element. Each time its called the other variables are altered. When wanting to reset just call the original constant. Also need to build the ai logic in a similar way to my impeccable ruby ai. With a 4x4 game this should present some new ai opportunities though!
+
+**Link to work:** [HikHakJoe](https://github.com/kirbycampbell/hikhakjoe)
