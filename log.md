@@ -469,3 +469,13 @@ And Check out my version below:
 **Thoughts:** : I believe this game will be a good time to use the useReducer hook since it needs to hold a higher state than the players of the game themselves. This way each move can be logged into a higher state, and both players can play with each other. Tomorrow, I need to finish finding a way to alter the state when a specific square is clicked. Perhaps making the state a simple variable in the reducer function will solve the issues. Easy replacement, just grab the variable, and reassign the one element. Each time its called the other variables are altered. When wanting to reset just call the original constant. Also need to build the ai logic in a similar way to my impeccable ruby ai. With a 4x4 game this should present some new ai opportunities though!
 
 **Link to work:** [HikHakJoe](https://github.com/kirbycampbell/hikhakjoe)
+
+###################################################################################################
+
+### Day 40 : April 23, 2019
+
+**Today's Progress**: Got a ton of the game functions working on the 4x4 TicTacToe game (HikHakJoe). I've gotten the useReducer working with a global Redux like state, but with hooks. Now the game is saved within that outer realm, inputs the box checked into an array, which renders into the boxes themselves. I've got conditionals rendering the icons into each square, and the moves switching depending what turn it is. Also provided a block from adding to a prechecked box. Also the game ends when someone has won the game. Also figuring out all 24 winning combos took some drawing to figure out.
+
+**Thoughts:** : Great productive day coding - really enjoyed getting back to the redux style of things - global state rules for games and the like. Tomorrow I'd like to change the "Winner" functionality to a "full board ends the game" type of deal. Also, I plan to add a points system, where a block is worth some points, and a 3 in a row is worth some points, and a 4 in row is worth even more. Would involve keeping track of some complicated logic, but I bet it'd be awesome! I've also got a few ideas for adding points trading for extra moves - to build a meta-game. Or a game where some turns let you place two, but not touching your own piece. Going to be fun!
+
+**Link to work:** [HikHakJoe](https://github.com/kirbycampbell/hikhakjoe)
