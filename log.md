@@ -479,3 +479,13 @@ And Check out my version below:
 **Thoughts:** : Great productive day coding - really enjoyed getting back to the redux style of things - global state rules for games and the like. Tomorrow I'd like to change the "Winner" functionality to a "full board ends the game" type of deal. Also, I plan to add a points system, where a block is worth some points, and a 3 in a row is worth some points, and a 4 in row is worth even more. Would involve keeping track of some complicated logic, but I bet it'd be awesome! I've also got a few ideas for adding points trading for extra moves - to build a meta-game. Or a game where some turns let you place two, but not touching your own piece. Going to be fun!
 
 **Link to work:** [HikHakJoe](https://github.com/kirbycampbell/hikhakjoe)
+
+###################################################################################################
+
+### Day 41 : April 24, 2019
+
+**Today's Progress**: Added the points system to HikHakJoe - and added a meta-game points system. Also made the game continue through multiple "connect-3"'s adding up each connection into the points. Also once the game is over it renders an option to play a new game or end the game.
+
+**Thoughts:** : Another great day working on this app. Super close to getting to the ai portion of coding this app. Next step will include a start screen with the option to play 0-player, 1-player, or 2-player (current mode). To complete some basic functionality I need to add a banner saying who won the game, and change the new game button to (continue). When pressing End Game - i'd also like it to display the final score of both players, giving the option to start over and bring us back to the start screen. In the 1-player game I can begin coding the ai strategies... if 1 space in a win combo is that player, then go for it. I could also return priorities of options, say if 3 options return for building towards a win, the computer can always go for the route with the most available connections. As in - it seems like initially aiming for the middle 4 squares is the smartest, since it opens you up to like 8 possible winning combos. After that - heading for the corners seems smartest. ALSO - adding a checks for win combos that border another matching piece for extra points would be sweet!
+
+**Link to work:** [HikHakJoe](https://github.com/kirbycampbell/hikhakjoe)
