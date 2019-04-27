@@ -499,3 +499,13 @@ And Check out my version below:
 **Thoughts:** : So I got sort of stuck on the ai implementation by the end of the day. Though the code is beginning to feel long and jumbled in some spots, so I may need to seperate concerns, because I don't want to exactly call the ai from the boxgrid.js file. The turns and player should probably move back mainly into the global state. Possibly the player can be totally determined in the reducer, in two player games - it could only transmit the block clicked, and then it could just add one to the turn when adding the move to the array. Thats exactly what I should do. TODO ^^^^^. That way the global state can check if the gameType is single, and if so- call a function which will make a move, changing the player's turn back to the users. That should work, but I could forsee a conflict between the function call getting stuck in a dual state with the makeMove call from the ai file. Well, I'll try that out tomorrow for sure! Good starting place.
 
 **Link to work:** [HikHakJoe](https://github.com/kirbycampbell/hikhakjoe)
+
+###################################################################################################
+
+### Day 43 : April 26, 2019
+
+**Today's Progress**: Emplimented many different versions of redux in hikhakjoe, ended up reverting back to normal after some time.
+
+**Thoughts:** : Not much time to write today, will update with what I learned!
+
+**Link to work:** [HikHakJoe](https://github.com/kirbycampbell/hikhakjoe)
