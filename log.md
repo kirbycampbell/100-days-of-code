@@ -519,3 +519,12 @@ And Check out my version below:
 **Thoughts:** : About an hour of coding was used to set up my laptop with the correct dependencies for the hikhakjoe app. After that, I had no internet and just had to work however I could on the app. Luckily I experimented a good bit, not making much more forward progress, but trying several ideas out and checking them off the list. Overall great day!
 
 **Link to work:** [HikHakJoe](https://github.com/kirbycampbell/hikhakjoe)
+
+###################################################################################################
+
+### Day 45 : April 28, 2019
+
+**Today's Progress**: Coded some more in hikhakjoe, still experimenting. I think I've got the plan now (on paper) for how to seperate the dual player game from the single player game, which will finally free me up to build the ai out (the supposedly hardest part of this entire thing!). Also began a store-front project.
+
+**Thoughts:** : Excited to start the store-front project since it is pretty much the last type of site I wanted to put on my resume. It should be pretty simple and essentially only show a simple storefront of 8-10 items, and have a cart. I won't add payment or anything like that, just more of a style based app.
+**Link to work:** [HikHakJoe](https://github.com/kirbycampbell/hikhakjoe)
