@@ -509,3 +509,13 @@ And Check out my version below:
 **Thoughts:** : Not much time to write today, will update with what I learned!
 
 **Link to work:** [HikHakJoe](https://github.com/kirbycampbell/hikhakjoe)
+
+###################################################################################################
+
+### Day 44 : April 27, 2019
+
+**Today's Progress**: Coded within the hikhakjoe app while in the woods. Didn't have service to upload my work, but still messed around with reducers and methods for the ai. Also tested my css and expanded on style options I frequently avoid.
+
+**Thoughts:** : About an hour of coding was used to set up my laptop with the correct dependencies for the hikhakjoe app. After that, I had no internet and just had to work however I could on the app. Luckily I experimented a good bit, not making much more forward progress, but trying several ideas out and checking them off the list. Overall great day!
+
+**Link to work:** [HikHakJoe](https://github.com/kirbycampbell/hikhakjoe)
