@@ -528,3 +528,12 @@ And Check out my version below:
 
 **Thoughts:** : Excited to start the store-front project since it is pretty much the last type of site I wanted to put on my resume. It should be pretty simple and essentially only show a simple storefront of 8-10 items, and have a cart. I won't add payment or anything like that, just more of a style based app.
 **Link to work:** [HikHakJoe](https://github.com/kirbycampbell/hikhakjoe)
+
+###################################################################################################
+
+### Day 46 : April 29, 2019
+
+**Today's Progress**: Redux experimentation and React Custom Hooks documentation deep dive. Switched the checkforWin function over to the global state, I'm questioning my move over though. Sought deeper understanding for what I was aiming to do.
+
+**Thoughts:** : Sometimes forward progress is realizing that you are working sideways, and just searching the documentation for answers is a more productive way. Today was alot of reading, and thinking through my useReducer issues. Is redux really neccessary here? I'm not sure. But I'd like for more than one of my projects to utilize it, so this has to be it, and it could only help the ai stay separated right? We'll see. I'm thinking creating customHooks will be the route to use the checkForWin, gameOver, and points type functions. hopefully that'll extract the logic out of the boxGrid.js, instead of placing it in the reducer like I'm doing now - as I realize this is an anti-pattern. It is currently working though, which is a "win" from the past few days, though I now doubt that its a good convention, and see the issues associated with this style of design. Regardless, this is a serious learing process these past few days, sometimes getting it all "right" isn't much of a learning process, and more of a solidifying your previous knowledge. Today I'd say was adding to my understanding, not neccessarily moving a project forward. But I'm truly understanding why redux should be used a certain way, instead of just following the directions, which is awesome!
+**Link to work:** [HikHakJoe](https://github.com/kirbycampbell/hikhakjoe)
