@@ -537,3 +537,12 @@ And Check out my version below:
 
 **Thoughts:** : Sometimes forward progress is realizing that you are working sideways, and just searching the documentation for answers is a more productive way. Today was alot of reading, and thinking through my useReducer issues. Is redux really neccessary here? I'm not sure. But I'd like for more than one of my projects to utilize it, so this has to be it, and it could only help the ai stay separated right? We'll see. I'm thinking creating customHooks will be the route to use the checkForWin, gameOver, and points type functions. hopefully that'll extract the logic out of the boxGrid.js, instead of placing it in the reducer like I'm doing now - as I realize this is an anti-pattern. It is currently working though, which is a "win" from the past few days, though I now doubt that its a good convention, and see the issues associated with this style of design. Regardless, this is a serious learing process these past few days, sometimes getting it all "right" isn't much of a learning process, and more of a solidifying your previous knowledge. Today I'd say was adding to my understanding, not neccessarily moving a project forward. But I'm truly understanding why redux should be used a certain way, instead of just following the directions, which is awesome!
 **Link to work:** [HikHakJoe](https://github.com/kirbycampbell/hikhakjoe)
+
+###################################################################################################
+
+### Day 47 : April 30, 2019
+
+**Today's Progress**: Finished setting up the redux for HikHakJoe. Dove into the ai full stop. Coded about 400 lines of code for the ai! Built functions for comparing objects, adding up similar items into new objects, sorting for most frequently found item, and all of the decisions that the ai needs to make. I also added the ability for the computer to play itself, and added randomization so that if moves held the same "weight" it would change its move every game it plays.
+
+**Thoughts:** : The ai was super fun to code today, I love working with straight up functions. I think my c++ training is becoming very useful in these situations. This was some serious work today, probably put about 11 hours into the code today. Very focused. I was super pumped to be unstuck from the useReducer/Redux land that was giving me so many issues. Awesome!
+**Link to work:** [HikHakJoe](https://github.com/kirbycampbell/hikhakjoe)
