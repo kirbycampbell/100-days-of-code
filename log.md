@@ -546,3 +546,12 @@ And Check out my version below:
 
 **Thoughts:** : The ai was super fun to code today, I love working with straight up functions. I think my c++ training is becoming very useful in these situations. This was some serious work today, probably put about 11 hours into the code today. Very focused. I was super pumped to be unstuck from the useReducer/Redux land that was giving me so many issues. Awesome!
 **Link to work:** [HikHakJoe](https://github.com/kirbycampbell/hikhakjoe)
+
+###################################################################################################
+
+### Day 48 : May 1, 2019
+
+**Today's Progress**: Practiced a load of C++ classes, variables and structs. More directly for my work I built out the basic frame for my home-website landing page. Began with simple containers, flexboxes, and containers within containers. Then I converted the whole app from the beginning to be responsive. Now I can easily keep both views up to date.
+
+**Thoughts:** : This was a great start, and perfect project for today. Only took me about 2 hours to build out the start to this landing page, which will ultimately be the first thing employers see. From this page they will be able to either click on the resume button, which will provide a pdf button or "live resume app" button. When clicking on the portfolio button it will show my top 4 portfolio pieces with a "click for more" button, which will then load 4 more portfolio pieces. I should also consider adding a "Blog" button to the main screen. Perhaps I should put all of my social media links beneath the Title bar. Github, Twitter, LinkedIn, Email, etc... Regardless of those thoughts, I'd also like to implement some super impressive transitions and interactivity, and maybe even some sliding movements!
+**Link to work:** [HomePage](https://github.com/kirbycampbell/homepage)
