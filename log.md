@@ -582,3 +582,12 @@ And Check out my version below:
 
 **Thoughts:** : It's always great to finish the night with completing the task you were working on all night. This hover/change styling is much more difficult than I'd antipicated, but I'm building it for robust conditional component rendering so that I can render "Go to site" buttons, and the additional info. So it's super handy. Tomorrow I should probably strip this out into it's own component and just pass in props for each different component. That way I only have to change the code once, not very DRY right now. Going to focus on this tomorrow more for sure!
 **Link to work:** [KirbyResume](https://github.com/kirbycampbell/kirby-resume)
+
+###################################################################################################
+
+### Day 52 : May 5, 2019
+
+**Today's Progress**: Debugged some resume & debugged the hikHakJoe app. Kept it simple today!
+
+**Thoughts:** : Excited for this week - lots happening - and lots of projects likely getting much closer to completion! Goal is to have the resume/Portfolio completely done by day 100!
+**Link to work:** [KirbyResume](https://github.com/kirbycampbell/kirby-resume)
