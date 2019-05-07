@@ -591,3 +591,12 @@ And Check out my version below:
 
 **Thoughts:** : Excited for this week - lots happening - and lots of projects likely getting much closer to completion! Goal is to have the resume/Portfolio completely done by day 100!
 **Link to work:** [KirbyResume](https://github.com/kirbycampbell/kirby-resume)
+
+###################################################################################################
+
+### Day 53 : May 6, 2019
+
+**Today's Progress**: Styled the phone and Desktop View of the resumeApp. Added project styling to desktop. Fixed the dividers in phone view. Added clickable links to the desktop contact area. Positioned items better.
+
+**Thoughts:** : This was some good final style tweaking on this project. Getting close to "send-out" ready! Just need to get the jkirbycampbell.com landing page up and hosted, which can then link to this resume, projects, and my blog. This app also links over to my projects as well. So it's about time that I start organizing all of those hostings and connections. That way I only need to re-push the projects up as they become more polished.
+**Link to work:** [KirbyResume](https://github.com/kirbycampbell/kirby-resume)
