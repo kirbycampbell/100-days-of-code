@@ -600,3 +600,12 @@ And Check out my version below:
 
 **Thoughts:** : This was some good final style tweaking on this project. Getting close to "send-out" ready! Just need to get the jkirbycampbell.com landing page up and hosted, which can then link to this resume, projects, and my blog. This app also links over to my projects as well. So it's about time that I start organizing all of those hostings and connections. That way I only need to re-push the projects up as they become more polished.
 **Link to work:** [KirbyResume](https://github.com/kirbycampbell/kirby-resume)
+
+###################################################################################################
+
+### Day 54 : May 7, 2019
+
+**Today's Progress**: Perfected the Look and Layout of my DesktopView within the resume app. Got the website, and phone links working as well. Fixed all of the border boxes in each section, and made a consistent hover animation for each section. Resized the entire height, which took converting it over to flexbox from grid based. Also tweaked some PhoneView sections as well.
+
+**Thoughts:** : I want to add a print button to the web version of this app, so that people can print or save the pdf image of this resume. I still need to make the Projects section link over to each project (even though not all of the projects are hosted currently). Also I'd like to add some cool little images to the experience cards. Stock Trading - Growth Chart\*. Crypto Rig - Photo of clean rig. Music Producer- Screen shot from Pro Tools.  
+**Link to work:** [KirbyResume](https://github.com/kirbycampbell/kirby-resume)
