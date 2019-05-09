@@ -609,3 +609,12 @@ And Check out my version below:
 
 **Thoughts:** : I want to add a print button to the web version of this app, so that people can print or save the pdf image of this resume. I still need to make the Projects section link over to each project (even though not all of the projects are hosted currently). Also I'd like to add some cool little images to the experience cards. Stock Trading - Growth Chart\*. Crypto Rig - Photo of clean rig. Music Producer- Screen shot from Pro Tools.  
 **Link to work:** [KirbyResume](https://github.com/kirbycampbell/kirby-resume)
+
+###################################################################################################
+
+### Day 55 : May 8, 2019
+
+**Today's Progress**: Added content to my homepage landing page. Resized overall layout to fit phones and desktops in one screen with no scrollbar. Made transitions to roll the boxes in. Began transitions for the intro welcome message, which triggers the next section.
+
+**Thoughts:** : I need to convert to CSSTransition component to accurately transition between the different states of this app. simple animate.css are too 1 deminsional for the activities I need to build into this app. This app will essentially be my main User Experience app, transitions and interactivity galore. Style needs to be fresh, modern, sleek, and inspiring.
+**Link to work:** [Homepage](https://github.com/kirbycampbell/homepage)
