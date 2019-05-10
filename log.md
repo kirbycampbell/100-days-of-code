@@ -618,3 +618,12 @@ And Check out my version below:
 
 **Thoughts:** : I need to convert to CSSTransition component to accurately transition between the different states of this app. simple animate.css are too 1 deminsional for the activities I need to build into this app. This app will essentially be my main User Experience app, transitions and interactivity galore. Style needs to be fresh, modern, sleek, and inspiring.
 **Link to work:** [Homepage](https://github.com/kirbycampbell/homepage)
+
+###################################################################################################
+
+### Day 56 : May 9, 2019
+
+**Today's Progress**: Made tons of progress on the homepage app. First I added a transitional cssTransition component to the title bar section - added new className assignments in the css file for each transitional name, built specific timing for each transition. Added background images to each Topic Card, Resume-Portfolio-Blog-Bio. Added a background to the 2nd title after the transition. Added bunch of new font options to css file.
+
+**Thoughts:** : For smoothness of this app, I could technically copy all of my other project's code and dependencies into this project, and actually host all of my apps within this one homePage app folder - that way it could quickly load, and just have React Router split up the url's of the pages. Not sold on the top font, but I have a bunch of other fonts saved in the css file. The cards could use some work as well, Font could be better, and the look could be better too... not sure I like the photos in the background. I'd also like to add a social media bar between the title and the main section. Just purely links to social media accounts.
+**Link to work:** [Homepage](https://github.com/kirbycampbell/homepage)
