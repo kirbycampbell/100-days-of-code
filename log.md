@@ -645,3 +645,11 @@ And Check out my version below:
 
 **Thoughts:** : This was actually smoother than I imagined, dropping a pre-hooks component in an app written with hooks. The main issues came down to the css flexboxes and grids not playing nicely together. Mainly, the fact that the app was built using view heights, and view widths, really didn't play well with the old grid css stuff. Maybe I'm just realizing that flexboxes are more... flexable - beyond their immediate stretchy meaning. This was some good practice that I probably would have avoided if it hadn't been for this meshing of apps. I should probably build a page using all different types of height elements just to see which ones can do what. That way I can know for certain which types of css displays effect the following items, and which dont. Experimentation time!
 **Link to work:** [Homepage](https://github.com/kirbycampbell/homepage)
+
+###################################################################################################
+
+### Day 59 : May 12, 2019
+
+**Today's Progress**: C++ work. Also added a temp backend to the store-front Vintage Store App. I conditionally mapped the temp backend to the frontend and began styling the components. Got the boxes flexing within containers, and holding very consistent. Added images as well.
+**Thoughts:** : This was relatively smooth and fun! I'll add a true backend to this one soon, likely a rails backend api just to practice with rails again, its been awhile, and I should keep on my toes with that one! ALso, need to finish styling out the cards with the prices and images. WOuld be cool to have a fun price font and color and place it in a little bubble ontop of the iamges. The title and description can stay below. Also need to add to the navbar, and build out a footer. I should also build out some product pages, for the individual product itself. Show related items (with the same type), and have an add to cart button. Save a user's cart in their local storage. Stop at guest payment processing.
+**Link to work:** [Vintage Store-Front App](https://github.com/kirbycampbell/store-front)
