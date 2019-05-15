@@ -661,3 +661,11 @@ And Check out my version below:
 **Today's Progress**: Added tons to the Vantage Vintage - Vintage store front app. Added some complex footer stylings and added an email form. Played with fonts and added social share buttons to the footer. Built out the navbar as well. Moved all components into their own files and css for better organization. Also built out a filter section which filters through the types of clothing options.
 **Thoughts:** : This was really smooth today. I feel like the entire React/Css/Jsx workflow is becoming second nature. I can break things out into new components in seconds, pass props around at ease. It's really starting to feel like I'm getting beyond the "Junior" level of coding, and glimpsing into the senior level, even though my experience is only on my own apps. Just my confidence level from my first few projects after flatiron until now is about 10 fold. Yay to today, I'll take it!
 **Link to work:** [Vintage Store-Front App](https://github.com/kirbycampbell/store-front)
+
+###################################################################################################
+
+### Day 61 : May 14, 2019
+
+**Today's Progress**: Added responsive layout to store front vintage app. COnverted css for it.
+**Thoughts:** : Small coding day since I needed to catch up on sleep. But regardless I got over an hour in towards this portfolio app.
+**Link to work:** [Vintage Store-Front App](https://github.com/kirbycampbell/store-front)
