@@ -669,3 +669,11 @@ And Check out my version below:
 **Today's Progress**: Added responsive layout to store front vintage app. COnverted css for it.
 **Thoughts:** : Small coding day since I needed to catch up on sleep. But regardless I got over an hour in towards this portfolio app.
 **Link to work:** [Vintage Store-Front App](https://github.com/kirbycampbell/store-front)
+
+###################################################################################################
+
+### Day 62 : May 15, 2019
+
+**Today's Progress**: Perfected the store front layout within both Desktop view and Phone View. I added Heart buttons to each card on both views, which required layout changes for the cards to use absolute positions. Surprisingly a lot of work reworking the layout setups.
+**Thoughts:** : Today was more tedious before I dive into new features, but the layout needed to be solid before I add new features. It's always slower when you try and add new features while trying to fix layout issues as they pop up. Pumped to add some cart adding features, and product page, and checkout page.
+**Link to work:** [Vintage Store-Front App](https://github.com/kirbycampbell/store-front)
