@@ -677,3 +677,11 @@ And Check out my version below:
 **Today's Progress**: Perfected the store front layout within both Desktop view and Phone View. I added Heart buttons to each card on both views, which required layout changes for the cards to use absolute positions. Surprisingly a lot of work reworking the layout setups.
 **Thoughts:** : Today was more tedious before I dive into new features, but the layout needed to be solid before I add new features. It's always slower when you try and add new features while trying to fix layout issues as they pop up. Pumped to add some cart adding features, and product page, and checkout page.
 **Link to work:** [Vintage Store-Front App](https://github.com/kirbycampbell/store-front)
+
+###################################################################################################
+
+### Day 63 : May 16, 2019
+
+**Today's Progress**: Set up the newly arrived Macbook air, 2014, super affordable coding edition. I fixed container issues for my main homepage cards on safari, while keeping them intact on chrome. Began removing Animate.css, as transitions seem smooth on safari otherwise. New issues arose when I removed Animate.css.
+**Thoughts:** : I'm not sure why the ANimate.css classNames are effecting the container bounds for my background images. When I removed the animate classNames, all of the background images grew way outside of their bounds, and aren't responding like they usually do. There must be something else causing it, or perhaps the animate classNames auto set the box sizes for some reason. Regardless, I've gotta figure out, or else I'm going to get rid of Animate.css, since it's introducing these extra variables between browsers. Smoothness is key here, this is my front page. Regardless, I really tried alot of things to fix the containers... these kinds of things always get worked out in my dreams somehow, its wild how helpful sleep can be with problems like these!
+**Link to work:** [Homepage](https://github.com/kirbycampbell/homepage)
