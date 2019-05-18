@@ -685,3 +685,11 @@ And Check out my version below:
 **Today's Progress**: Set up the newly arrived Macbook air, 2014, super affordable coding edition. I fixed container issues for my main homepage cards on safari, while keeping them intact on chrome. Began removing Animate.css, as transitions seem smooth on safari otherwise. New issues arose when I removed Animate.css.
 **Thoughts:** : I'm not sure why the ANimate.css classNames are effecting the container bounds for my background images. When I removed the animate classNames, all of the background images grew way outside of their bounds, and aren't responding like they usually do. There must be something else causing it, or perhaps the animate classNames auto set the box sizes for some reason. Regardless, I've gotta figure out, or else I'm going to get rid of Animate.css, since it's introducing these extra variables between browsers. Smoothness is key here, this is my front page. Regardless, I really tried alot of things to fix the containers... these kinds of things always get worked out in my dreams somehow, its wild how helpful sleep can be with problems like these!
 **Link to work:** [Homepage](https://github.com/kirbycampbell/homepage)
+
+###################################################################################################
+
+### Day 64 : May 17, 2019
+
+**Today's Progress**: Completely revamped the transitions and css className styling for the homepage app. I also built an example app that I can come back to to see exactly how to build a transitional hooks conditional className app. First I focused on animating the title/Navbar, through its 3 stages using 2 timers. Then I added the social bar, which was the simplest. Then I added the new styling to the Main boxes, and the boxBar (once box is selected) - this took awhile, and still has a little bit of issues. PhoneView is totally off, it needs to be updated to the new process.
+**Thoughts:** : This was incredibly productive, as I spent about 10 hours working on this stuff today. I won't type too much, since the smoothness, and clean new code speaks for itself. Hopefully now I can add a couple more transitions, and fill out the rest of the content needed for this project to be done. So close!
+**Link to work:** [Homepage](https://github.com/kirbycampbell/homepage)
