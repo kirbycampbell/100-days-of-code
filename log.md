@@ -693,3 +693,11 @@ And Check out my version below:
 **Today's Progress**: Completely revamped the transitions and css className styling for the homepage app. I also built an example app that I can come back to to see exactly how to build a transitional hooks conditional className app. First I focused on animating the title/Navbar, through its 3 stages using 2 timers. Then I added the social bar, which was the simplest. Then I added the new styling to the Main boxes, and the boxBar (once box is selected) - this took awhile, and still has a little bit of issues. PhoneView is totally off, it needs to be updated to the new process.
 **Thoughts:** : This was incredibly productive, as I spent about 10 hours working on this stuff today. I won't type too much, since the smoothness, and clean new code speaks for itself. Hopefully now I can add a couple more transitions, and fill out the rest of the content needed for this project to be done. So close!
 **Link to work:** [Homepage](https://github.com/kirbycampbell/homepage)
+
+###################################################################################################
+
+### Day 65 : May 18, 2019
+
+**Today's Progress**: Fixed filtering bugs in store-front Vintage Store app. Fixed styling in that section. Practiced some inheritance and virtual pointers in a local c++ project after reading some c++ textbook stuff. Just over an hour of coding today, needed a little Saturday "downtime" action - but holding strong to my commitment for an hour a day for 100 days!
+**Thoughts:** : Pretty great little day! Feeling like I'm really solidifying my c++ knowledge, which in turns helps me apply javascript so much better. Essentially, the more languages I've learned, the more I've "GOTTEN" and understood whats possible in each language, and how to get into my own code flow. Last night I looked back at old projects from the past year, and realized how much more confident, quick, and knowledgeable I am when coding. It really has been such a huge learning process - so valuable, and the amount of time I've put in has seriously been worth it, as this is a solid skill of mine now.  
+**Link to work:** [Vintage Store-Front App](https://github.com/kirbycampbell/store-front)
