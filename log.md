@@ -717,3 +717,11 @@ And Check out my version below:
 **Today's Progress**: Expanding the homepage app with some components for each main option for the boxes. Built out a portfolio data page instead of using the one from resume. Successfully built out class constructors just like c++ and ruby for creating the portfolio data. That way it can be array mapped and easily rendered out on that section. Began styling some of those components.
 **Thoughts:** : Was a little slower with my coding today, even though I spent about 4 hours on it. But that was coming after spending about 5 hours coding my c++ project, but I didn't count that towards 100DaysOfCode since it was for class. So overall, tons of code today, but I was a bit wiped out on it by the end. I find it pretty awesome that the c++ stuff is inspiring me to expand my javascript knowledge, by attempting to pull off similar concepts from other languages. I think this might be the key to truly understanding coding. Applying other languages to each other, and realizing each language's powers and cons. This is what its about.
 **Link to work:** [Homepage](https://github.com/kirbycampbell/homepage)
+
+###################################################################################################
+
+### Day 68 : May 21, 2019
+
+**Today's Progress**: Worked on homepage portfolio section's card styles. Added github links to the skills data section. Rendered buttons onto each portfolio card which open a new tab for the code at github or a live demo of the app.
+**Thoughts:** : Was productive, but not very quick. I was a bit tired from not sleeping, but got a few hours of coding done. Progress towards the goal!
+**Link to work:** [Homepage](https://github.com/kirbycampbell/homepage)
