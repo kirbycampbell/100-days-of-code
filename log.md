@@ -725,3 +725,11 @@ And Check out my version below:
 **Today's Progress**: Worked on homepage portfolio section's card styles. Added github links to the skills data section. Rendered buttons onto each portfolio card which open a new tab for the code at github or a live demo of the app.
 **Thoughts:** : Was productive, but not very quick. I was a bit tired from not sleeping, but got a few hours of coding done. Progress towards the goal!
 **Link to work:** [Homepage](https://github.com/kirbycampbell/homepage)
+
+###################################################################################################
+
+### Day 69 : May 22, 2019
+
+**Today's Progress**: Added images to portfolio cards and data. Restructured app so that taller sections push the footer down (was a big issue). Refined styling on the cards in portfolio. Added Resume section content, created space background, padded it and placed the resume pdf inside. Added buttons for printing or the interactive version. Added a loading animation when big cards are clicked and the fade in for the section is happening.
+**Thoughts:** : Alright - this is getting close! How about trying to put the actual interactive resume smack dab in the middle of the resume section? Almost should just git it all in one div, and bring it over from that project, should fit flawlessly, once I convert the vh's to 100%'s, keeping it locked into its container instead of using overall vh's. Then I'd only need a print button, download button, or share button.
+**Link to work:** [Homepage](https://github.com/kirbycampbell/homepage)
