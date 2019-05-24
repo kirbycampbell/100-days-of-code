@@ -733,3 +733,11 @@ And Check out my version below:
 **Today's Progress**: Added images to portfolio cards and data. Restructured app so that taller sections push the footer down (was a big issue). Refined styling on the cards in portfolio. Added Resume section content, created space background, padded it and placed the resume pdf inside. Added buttons for printing or the interactive version. Added a loading animation when big cards are clicked and the fade in for the section is happening.
 **Thoughts:** : Alright - this is getting close! How about trying to put the actual interactive resume smack dab in the middle of the resume section? Almost should just git it all in one div, and bring it over from that project, should fit flawlessly, once I convert the vh's to 100%'s, keeping it locked into its container instead of using overall vh's. Then I'd only need a print button, download button, or share button.
 **Link to work:** [Homepage](https://github.com/kirbycampbell/homepage)
+
+###################################################################################################
+
+### Day 70 : May 23, 2019
+
+**Today's Progress**: Completely rebuilt the Homepage app with a responsive mobile layout, while keeping the Desktop view essentially as I left it, besides a few adjustments. Added new projects to the project section. Also fixed the API issue with the Instant Messenger Chat App, back in business!
+**Thoughts:** : I've been on fire lately. Progress has been incredibly noticeable, which normally happens when you live in CSS styling for a week or so. Time to get back to sprucing up the chatApp for the portfolio, and figuring out why my jkirbycampbell.com domain name isn't linking to amplify apps on aws. Once I figure that out, I'll tie the homepage account to it, and have my main page officially live. Then I need to somehow get the Blog Posts rendering, maybe I can pull out parts of the Blog app and slide them directly into my homepage app section. Perhaps making a fork, and changing some stuff within the original app will be the best way to contain the app before moving it over. Make sure css names differ enough too, when they overlap they really mess other things up.
+**Link to work:** [Homepage](https://github.com/kirbycampbell/homepage)
