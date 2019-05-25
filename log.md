@@ -741,3 +741,11 @@ And Check out my version below:
 **Today's Progress**: Completely rebuilt the Homepage app with a responsive mobile layout, while keeping the Desktop view essentially as I left it, besides a few adjustments. Added new projects to the project section. Also fixed the API issue with the Instant Messenger Chat App, back in business!
 **Thoughts:** : I've been on fire lately. Progress has been incredibly noticeable, which normally happens when you live in CSS styling for a week or so. Time to get back to sprucing up the chatApp for the portfolio, and figuring out why my jkirbycampbell.com domain name isn't linking to amplify apps on aws. Once I figure that out, I'll tie the homepage account to it, and have my main page officially live. Then I need to somehow get the Blog Posts rendering, maybe I can pull out parts of the Blog app and slide them directly into my homepage app section. Perhaps making a fork, and changing some stuff within the original app will be the best way to contain the app before moving it over. Make sure css names differ enough too, when they overlap they really mess other things up.
 **Link to work:** [Homepage](https://github.com/kirbycampbell/homepage)
+
+###################################################################################################
+
+### Day 71 : May 24, 2019
+
+**Today's Progress**: Eexperimented in C++ with Linked lists. Deployed 2 of my main portfolio apps to add to my portfolio page of homepage app & my resume. Added them to the data in homepage. Practiced some "forgotten" css tricks with see-through borders.
+**Thoughts:** : Deployed both of these apps to AWS since they don't have the free teir sleep issues that heroku mandates. I'll likely move all of my projects over to AWS, since My apps can be full speed for the hiring process. Experimented with linked lists in c++ for some deeper practice. Going to hit it all very hard tomorrow!
+**Link to work:** [Homepage](https://github.com/kirbycampbell/homepage)
