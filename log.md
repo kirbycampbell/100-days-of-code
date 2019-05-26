@@ -749,3 +749,11 @@ And Check out my version below:
 **Today's Progress**: Eexperimented in C++ with Linked lists. Deployed 2 of my main portfolio apps to add to my portfolio page of homepage app & my resume. Added them to the data in homepage. Practiced some "forgotten" css tricks with see-through borders.
 **Thoughts:** : Deployed both of these apps to AWS since they don't have the free teir sleep issues that heroku mandates. I'll likely move all of my projects over to AWS, since My apps can be full speed for the hiring process. Experimented with linked lists in c++ for some deeper practice. Going to hit it all very hard tomorrow!
 **Link to work:** [Homepage](https://github.com/kirbycampbell/homepage)
+
+###################################################################################################
+
+### Day 72 : May 25, 2019
+
+**Today's Progress**: Experimented again today - but today with Github's electron, and JUCE c++ audio platform. Set up my first electron app, converted it to a react app template, and then added my Hik Hack Joe 4x4 game app to the template, successfully running my game app as a pure windows desktop app. So cool!
+**Thoughts:** : Today wasn't too much forward progress on my legit projects - BUT learning new frameworks and app conversions is soooo useful. The fact that I opened my game as a desktop app, was literally insurmountable yesterday, until I looked into it and learned some electron framework info. Can't believe how manuy apps are built with electron as well, I will definitely be using it some more! Obviously, not many of my apps would be useful as a pure application, but games and the meditation app would be pretty useful! I wonder how my electron apps work when it connects to internet and backend. Also, the Chat App could work really well with electron as well!
+**Link to work:** [HikHakJoe](https://github.com/kirbycampbell/hikhakjoe)
