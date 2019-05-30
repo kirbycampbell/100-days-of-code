@@ -766,14 +766,26 @@ And Check out my version below:
 **Thoughts:** : I remember this subscription issue giving me a real headache a month ago when I was working on this project non stop. After spending about 4 hours on the css and the layout of the app, I tried to figure out the subscription issue, and really just spent most of my time trying to figure out the ways I was calling the subscriptions. I definitely have an issue with the subscription getting called for every new message, even ones outside of the given convo (i filter these out). After that, I need to make sure that the subscription message isn't getting called from within my app multiple times, essentially I need to widdle down if the problem is coming from the aws server, or if my code is dupli-calling the subscriptions method. Also, side thought - why am I calling the subscription method? Shouldn't it just be called once on mounting the component, or when changing the conversation ID? Seems like calling it after each message creation is double the work.
 **Link to work:** [Chatterson-Chatapp](https://github.com/kirbycampbell/chatterson-chatapp)
 
+###################################################################################################
+
 ### Day 74 : May 27, 2019
 
 **Today's Progress**: Worked about 7 hours, but slowly. Added React Router to the homepage app. It was simpler than I made it at first. Built it out with history.push syntax, and had tons of issues with it "POP"ing too much on "back" clicks. Switched to Link to components, and it worked like a charm. Began trying to add the "Skip the intro" function that will just render the page if you've already visited it.
 **Thoughts:** : Gotta figure out a simpler way to alter the entrance sequence. Perhaps, I just set the program to automatically open to the main (end animation) view. Then if a user hasn't visited the site before, it loads the entrance sequence. Also, perhaps putting the main contents in a /main route would make it render if the browser goes back to that view, and the page only loads the animations if it starts on "/" proper. That could be an interesting way, That way people still get animations when revisiting, but don't get the animation when "back"ing up into the homepage. Idk, is this useless functionality for my home page? I feel like it isn't since pressing "back" is pretty usual functionality, would be pretty weird to reload the animation each time. We'll see tomorrow.
 **Link to work:** [Homepage](https://github.com/kirbycampbell/homepage)
 
+###################################################################################################
+
 ### Day 75 : May 28, 2019
 
 **Today's Progress**: Got responsive mobile layout for resume section of homepage. Messed up the desktop resume layout at the same time, and attempted to fix alot of it.
 **Thoughts:** : I'm trying to avoid using the javascript media query like i used in the original resume app, but i'm starting to think it would be more useful to go that direction. For now, I was just trying to rearrange the jsx to render in the correct order on mobile in a single column view, and still render the left/right column layout correctly for the desktop view. Mobile looks good now, but the desktop view is out of order, and I tried a few different ways of putting it back in order. Will figure out tomorrow!
+**Link to work:** [Homepage](https://github.com/kirbycampbell/homepage)
+
+###################################################################################################
+
+### Day 76 : May 29, 2019
+
+**Today's Progress**: Fixed responsive layout of resume and blog from homepage app. Added lots of material to the bio section. Cleaned up some layout stuff all over the homepage.
+**Thoughts:** : Was a nice flow of fixing a bunch of small little bugs today on homepage. I obviously always want to do more in a day, but I'm feeling pretty CLOSE TO FINISHED with the homepage app. I mainly need to get the main entrance to only appear when you first visit, and never again. And I need to finish the bio page. Otherwise, this thing is nearly done!
 **Link to work:** [Homepage](https://github.com/kirbycampbell/homepage)
