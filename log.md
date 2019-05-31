@@ -789,3 +789,11 @@ And Check out my version below:
 **Today's Progress**: Fixed responsive layout of resume and blog from homepage app. Added lots of material to the bio section. Cleaned up some layout stuff all over the homepage.
 **Thoughts:** : Was a nice flow of fixing a bunch of small little bugs today on homepage. I obviously always want to do more in a day, but I'm feeling pretty CLOSE TO FINISHED with the homepage app. I mainly need to get the main entrance to only appear when you first visit, and never again. And I need to finish the bio page. Otherwise, this thing is nearly done!
 **Link to work:** [Homepage](https://github.com/kirbycampbell/homepage)
+
+###################################################################################################
+
+### Day 77 : May 30, 2019
+
+**Today's Progress**: Restructured the code to be much more organized in my store-front vintage app. I created specific files for filtered views, like page, and product pages. As well as setting up the structure for a cart page and more.
+**Thoughts:** : This was a short little hour of coding, but tomorrow will be so much more! I've got a lot to knock out before my meeting at 1 to get the resume worked out!
+**Link to work:** [Vintage Store-Front App](https://github.com/kirbycampbell/store-front)
