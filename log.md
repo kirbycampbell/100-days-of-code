@@ -797,3 +797,22 @@ And Check out my version below:
 **Today's Progress**: Restructured the code to be much more organized in my store-front vintage app. I created specific files for filtered views, like page, and product pages. As well as setting up the structure for a cart page and more.
 **Thoughts:** : This was a short little hour of coding, but tomorrow will be so much more! I've got a lot to knock out before my meeting at 1 to get the resume worked out!
 **Link to work:** [Vintage Store-Front App](https://github.com/kirbycampbell/store-front)
+
+###################################################################################################
+
+### Day 78 : May 31, 2019
+
+**Today's Progress**: Built a printable version of the resume app. Updated data in both resume app and homepage app. Tweaked some styling.
+**Thoughts:** : Another sort of short coding day, but it was a busy day nonetheless. Tomorrow's going to be an amazing one!  
+TODO for tomorrow:
+-make resume projects clickable and linked to projects
+-move all projects over to aws from heroku
+-Finish the bio page of homepage app
+-Add some styling to sign in and Sign up in Chat App.
+-Avoid rendering "self" in the Chat App Friend List.
+
+- Place a print button on the Resume pages.
+  -Make homepage '/resume' routes externally link to the correct page. Right now it only works for a back button.
+- Also similar note to last one - The active class on the Selection bar doesn't follow the back button route changes.
+- whew thats a lot to do!
+  **Link to work:** [KirbyResume](https://github.com/kirbycampbell/kirby-resume)
