@@ -815,4 +815,23 @@ TODO for tomorrow:
   -Make homepage '/resume' routes externally link to the correct page. Right now it only works for a back button.
 - Also similar note to last one - The active class on the Selection bar doesn't follow the back button route changes.
 - whew thats a lot to do!
+- ALSO UPDATE MY GITHUB README.md's for my main portfolio projects ahh!
   **Link to work:** [KirbyResume](https://github.com/kirbycampbell/kirby-resume)
+
+###################################################################################################
+
+### Day 79 : June 1, 2019
+
+**Today's Progress**: Did SO much today. Knocked out 70% of the todo list from yesterday, which is surprising seeing how much there was. Sooo - I began by fixing style aspects of the homepage app. Then I moved all of portfolio apps over to aws. Then I fixed the jkirbycampbell.com nameservers issues, and got the homepage correctly connected to it (although on the west coast its going to take 40 more hours til it updates). Then I added a pdf link to the resume. Then I entered the Chat App zone - I fixed the API key again, but this time on the hosted version. Then I fixed the sign in and sign up buttons and the forms for each. I then restyled the landing page for chat app, so that it rendered a welcome message, and no friends list. I also filtered the "self" user out of the friends list, so you can no longer message yourself, which is probably good. I also completely overhauled the responsive layout view, and added the friend burger and friend over lay back!
+**Thoughts:** : WHEW. Long one, but amazing stuff accomplished today. I think the end is in sight and its really making me clean up the last few/most obvious issues remaining. Not adding too many new features lately, but the last 10% of any project is so hard to complete actually, so many moving pieces, and you just want that clean cohesive look. I feel like I've been in style land (aka css) for longer than I'd really want to be. I just want my portfolio projects to look great, as well as act great.
+Goals for tomorrow:
+-Make the Tic Hack Joe app hard again - its too easy now.
+-Hit the Todos for the Routes on Homepage app and active bar box.
+-Add react native code to the portfolio section
+-Add the code from the VR app
+
+- Should probably build a c++ app for fun to add to portfolio too
+  -Once those new domains are live, add those to the resume and portfolio links
+  -Add Product page to vintage store app
+  **Link to work:** [KirbyResume](https://github.com/kirbycampbell/kirby-resume)
+  **Link to work2:** [Chatterson-Chatapp](https://github.com/kirbycampbell/chatterson-chatapp)
