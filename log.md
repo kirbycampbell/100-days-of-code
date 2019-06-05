@@ -851,3 +851,11 @@ Goals for tomorrow:
 **Today's Progress**: Quick coding day. Began work on the news site's responsive mobile layout in Vue.js. Re organized the vue files for responsive layout, and also cleaned up the project file by getting rid of stuff I wasn't needing.
 **Thoughts:** : A bit tired today, but I'm glad I started on this one! Hopefully I'll finish it tomorrow, even though I've got a pretty busy day ahead of me!  
 **Link to work:** [JournalApp](https://github.com/kirbycampbell/journalapp)
+
+###################################################################################################
+
+### Day 82 : June 4, 2019
+
+**Today's Progress**: Experimented in a local project with C++ linked lists and virtual pointers. Made a slight correction in the meditation app as well, since its hosted currently, didn't want to leave it live with that big bug.
+**Thoughts:** : I'm really starting to understand the linked lists and virtual pointer's purpose for memory management in C++. It really makes me excited for designing super "clean" code, unlike the way I code in Javascript. They should call javascript the "just make it happen" language, where c++ is the "olympic coach" of coding languages. Gotta keep it tight!  
+**Link to work:** [Local C++ Project] (No link today sorry!))
