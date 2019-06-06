@@ -859,3 +859,11 @@ Goals for tomorrow:
 **Today's Progress**: Experimented in a local project with C++ linked lists and virtual pointers. Made a slight correction in the meditation app as well, since its hosted currently, didn't want to leave it live with that big bug.
 **Thoughts:** : I'm really starting to understand the linked lists and virtual pointer's purpose for memory management in C++. It really makes me excited for designing super "clean" code, unlike the way I code in Javascript. They should call javascript the "just make it happen" language, where c++ is the "olympic coach" of coding languages. Gotta keep it tight!  
 **Link to work:** [Local C++ Project] (No link today sorry!))
+
+###################################################################################################
+
+### Day 83 : June 5, 2019
+
+**Today's Progress**: Continued building out a side c++ project to solidify my linked lists and virtual pointers knowledge. Artist managament system
+**Thoughts:** : Still trying to break through on this linked lists and virtual pointers situation. I'm not sure where else to go with it, but I plan to break through today.
+**Link to work:** [Artist Management C++](https://github.com/kirbycampbell/LinkedListOverloadExperiments)
