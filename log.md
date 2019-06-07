@@ -867,3 +867,11 @@ Goals for tomorrow:
 **Today's Progress**: Continued building out a side c++ project to solidify my linked lists and virtual pointers knowledge. Artist managament system
 **Thoughts:** : Still trying to break through on this linked lists and virtual pointers situation. I'm not sure where else to go with it, but I plan to break through today.
 **Link to work:** [Artist Management C++](https://github.com/kirbycampbell/LinkedListOverloadExperiments)
+
+###################################################################################################
+
+### Day 83 : June 5, 2019
+
+**Today's Progress**: Got most of this c++ experiment working. Artist app is working, dog breed one is having memory leaks, when I dive in deep.
+**Thoughts:** : Probably coded for 13 hours today, no time to really write to 100-days-of-code because I'm so deep in the code itself lol. I guess thats the goal of 100DOC
+**Link to work:** [Artist Management C++](https://github.com/kirbycampbell/LinkedListOverloadExperiments)
