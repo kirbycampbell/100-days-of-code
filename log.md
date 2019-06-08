@@ -870,8 +870,16 @@ Goals for tomorrow:
 
 ###################################################################################################
 
-### Day 83 : June 5, 2019
+### Day 84 : June 6, 2019
 
 **Today's Progress**: Got most of this c++ experiment working. Artist app is working, dog breed one is having memory leaks, when I dive in deep.
 **Thoughts:** : Probably coded for 13 hours today, no time to really write to 100-days-of-code because I'm so deep in the code itself lol. I guess thats the goal of 100DOC
 **Link to work:** [Artist Management C++](https://github.com/kirbycampbell/LinkedListOverloadExperiments)
+
+###################################################################################################
+
+### Day 85 : June 7, 2019
+
+**Today's Progress**: Another super long coding day. Finished some Linked Lists, Destructors, Deep Copy c++ projects. Also added project links to the resume and homepage-resume apps so that the boxes link to the appropriate AWS hosted domain pages. It's live!
+**Thoughts:** : Still have some cleaning up to do on each app, and I could definitely use to add a link to the githubs for all of my FlatIron projects that showcase backends, jquery, rails/ruby, and more. I'm missing that content for sure. Hopefully tomorrow should be a bit less busy so I can put in more portfolio proper time, instead of the c++ stuff, although, I can definitely add some c++ to my portfolio, wouldn't hurt!
+**Link to work:** [Homepage](https://github.com/kirbycampbell/homepage)
