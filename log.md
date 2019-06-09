@@ -883,3 +883,11 @@ Goals for tomorrow:
 **Today's Progress**: Another super long coding day. Finished some Linked Lists, Destructors, Deep Copy c++ projects. Also added project links to the resume and homepage-resume apps so that the boxes link to the appropriate AWS hosted domain pages. It's live!
 **Thoughts:** : Still have some cleaning up to do on each app, and I could definitely use to add a link to the githubs for all of my FlatIron projects that showcase backends, jquery, rails/ruby, and more. I'm missing that content for sure. Hopefully tomorrow should be a bit less busy so I can put in more portfolio proper time, instead of the c++ stuff, although, I can definitely add some c++ to my portfolio, wouldn't hurt!
 **Link to work:** [Homepage](https://github.com/kirbycampbell/homepage)
+
+###################################################################################################
+
+### Day 86 : June 8, 2019
+
+**Today's Progress**: Returned to BlogCreator to fix some styling in the app. Began overhauling the toolbar into graphic/icon based toolbar, away from a text filled button toolbar.
+**Thoughts:** : Been super busy studying for my finals this week, even though I have coded tons in c++ this weekend. Today I snuck in an hour and a half of forward progress on my portfolio projects, since I can't leave them sitting for long!
+**Link to work0:** [Blog-Site](https://github.com/kirbycampbell/blog-site)
