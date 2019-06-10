@@ -891,3 +891,11 @@ Goals for tomorrow:
 **Today's Progress**: Returned to BlogCreator to fix some styling in the app. Began overhauling the toolbar into graphic/icon based toolbar, away from a text filled button toolbar.
 **Thoughts:** : Been super busy studying for my finals this week, even though I have coded tons in c++ this weekend. Today I snuck in an hour and a half of forward progress on my portfolio projects, since I can't leave them sitting for long!
 **Link to work0:** [Blog-Site](https://github.com/kirbycampbell/blog-site)
+
+###################################################################################################
+
+### Day 87 : June 9, 2019
+
+**Today's Progress**: Continued working on the BlogSite's toolbar and css layouts. Fixed the toolbar's sizing, and div set up. Added fontawesome icons to the toolbar, and added hover functionality to each button to show the explanations.
+**Thoughts:** : Still busy, but I squeezed in about 2 hours of coding tonight - really liking the way this app is looking. I should add a dark mode to this app soon. I need to look into how to change all colors from one switch. Obviously I'll need to tie one or two classNames as the color for background, buttons, hovers, etc... - when the button gets clicked, those few classes change to another className of colors, and it cascades all throughout the app. It shouldn't be too hard since the .user-made className is essentially used everywhere for background colors and hovers.
+**Link to work0:** [Blog-Site](https://github.com/kirbycampbell/blog-site)
